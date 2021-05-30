@@ -6,6 +6,8 @@ import PySimpleGUI as sg
 from numpy.lib.function_base import append
 import undirected_graphs as ug
 
+import networkx as nx
+
 # Define the window's contents
 layout = [[sg.Text("u")],
           [sg.Input(key='-INPUT-0')],
@@ -54,6 +56,8 @@ while True:
 
 # Finish up by removing from the screen
 window.close()
+
+
 
 # %%
 

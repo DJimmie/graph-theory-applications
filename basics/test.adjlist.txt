@@ -1,0 +1,21 @@
+#c:\Users\dowdj\OneDrive\Documents\GitHub\graph-theory-applications\basics\venv\lib\site-packages\ipykernel_launcher.py --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"c6bf4492-9fc5-42c6-95c6-e6bb77b2bc09" --shell=9002 --transport="tcp" --iopub=9004 --f=C:\Users\dowdj\AppData\Local\Temp\tmp-324086f98HuJUnFFm.json
+# GMT Sat May 29 03:39:02 2021
+# 
+018-21 2021-06-01 2021-06-15 CELL13 Jim Dowd Ramsis II Approved Pending Subsea 20 KSI 500°F 20KSI-123456 20KSI-987654 TP-01 Wireline ASSY-01 Wireline 018-21 Binder Safety Hazards
+2021-06-01
+2021-06-15
+CELL13
+Jim Dowd
+Ramsis II
+Approved
+Pending
+Subsea
+20 KSI 20KSI-123456 20KSI-987654
+500°F
+20KSI-123456 Pressure Transducer
+20KSI-987654 Pressure Transducer
+TP-01 Wireline 018-21 Binder
+ASSY-01 Wireline 018-21 Binder
+018-21 Binder Safety Hazards
+Safety Hazards
+Pressure Transducer
