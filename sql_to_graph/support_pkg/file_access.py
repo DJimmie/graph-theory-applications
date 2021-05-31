@@ -3,6 +3,7 @@
 
 import os
 
+graph_file_location='C:/Users/dowdj/OneDrive/Documents/GitHub/graph-theory-applications/sql_to_graph/data/'
 
 def database_servers():
 
