@@ -1,0 +1,21 @@
+{
+    "directed": false,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "id": "Jim"
+        },
+        {
+            "id": "Dog"
+        }
+    ],
+    "links": [
+        {
+            "attr": "hasA",
+            "color": "10",
+            "source": "Jim",
+            "target": "Dog"
+        }
+    ]
+}

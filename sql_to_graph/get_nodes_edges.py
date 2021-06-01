@@ -34,5 +34,7 @@ def get_edge_data(df,u,v,graph_filename,**kwargs):
 
     a.graph_metrics()
 
+    a.subgraph()
+
   
 

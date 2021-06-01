@@ -58,7 +58,18 @@ class Graphs():
         GraphPlot(self.G)
 
     def graph_metrics(self):
-        logging.info(f'node{nx.degree_histogram(self.G)}')
+        # logging.info(f'node{nx.degree_histogram(self.G)}')
+        logging.info(f'info {nx.info(self.G)}')
+
+        logging.info(f'degree {nx.degree(self.G,"20 KSI")}')
+
+
+
+    def subgraph(self):
+        view=nx.subgraph_view(self.G,filter_node='20 KSI')
+        GraphPlot(view)
+
+
         
 
 class GraphPlot():
