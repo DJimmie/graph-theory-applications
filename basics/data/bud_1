@@ -1,0 +1,39 @@
+{
+    "directed": false,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "id": "expense"
+        },
+        {
+            "id": "Transactions"
+        },
+        {
+            "id": "income"
+        },
+        {
+            "id": "salary"
+        }
+    ],
+    "links": [
+        {
+            "attr": "IsA",
+            "amount": "",
+            "source": "expense",
+            "target": "Transactions"
+        },
+        {
+            "attr": "IsA",
+            "amount": "",
+            "source": "Transactions",
+            "target": "income"
+        },
+        {
+            "attr": "IsFrom",
+            "amount": "",
+            "source": "income",
+            "target": "salary"
+        }
+    ]
+}
