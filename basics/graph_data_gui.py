@@ -53,14 +53,18 @@ window = sg.Window('Window Title', layout)
 graph_file_location='C:/Users/dowdj/OneDrive/Documents/GitHub/graph-theory-applications/basics/data/'
 
 
-graph_type='ug'
+# graph_type='ug'
+graph_type='dig'
 try:
     # check if file exist
     graph_file=f'{graph_file_location}{graph_filename}'
     print(graph_file)
     with open(graph_file, "r") as read_file:
         data_dict = json.load(read_file)
-    G=nx.node_link_graph(data_dict, directed=False, multigraph=True, attrs=None)
+
+    directed=True if graph_type=='dig' else False
+        
+    G=nx.node_link_graph(data_dict, directed=directed, multigraph=True, attrs=None)
     ug.GraphPlot(G)
 except FileNotFoundError:
     # raise

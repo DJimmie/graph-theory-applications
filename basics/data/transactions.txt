@@ -1,0 +1,306 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "id": "TAXES"
+        },
+        {
+            "id": "taxes_due"
+        },
+        {
+            "id": "20000"
+        },
+        {
+            "id": "expense"
+        },
+        {
+            "id": "category"
+        },
+        {
+            "id": "MORTGAGE"
+        },
+        {
+            "id": "mortgage"
+        },
+        {
+            "id": "235_000"
+        },
+        {
+            "id": "Balance"
+        },
+        {
+            "id": "monthly"
+        },
+        {
+            "id": "frequency"
+        },
+        {
+            "id": "2021-04-15"
+        },
+        {
+            "id": "2021-07-01"
+        },
+        {
+            "id": "currentDay+1YR"
+        },
+        {
+            "id": "-350"
+        },
+        {
+            "id": "-2450"
+        },
+        {
+            "id": "Amount"
+        },
+        {
+            "id": "weekly"
+        },
+        {
+            "id": "bi-weekly"
+        },
+        {
+            "id": "utilities"
+        },
+        {
+            "id": "TypeTransaction"
+        },
+        {
+            "id": "JimSalary"
+        },
+        {
+            "id": "2021-06-18"
+        },
+        {
+            "id": "2650"
+        },
+        {
+            "id": "None"
+        },
+        {
+            "id": "income"
+        },
+        {
+            "id": "salary"
+        }
+    ],
+    "links": [
+        {
+            "attr": "hasType_trans",
+            "amount": "",
+            "source": "TAXES",
+            "target": "expense"
+        },
+        {
+            "attr": "hasCategory",
+            "amount": "",
+            "source": "TAXES",
+            "target": "taxes_due"
+        },
+        {
+            "attr": "hasBalance",
+            "amount": "",
+            "source": "TAXES",
+            "target": "20000"
+        },
+        {
+            "attr": "hasFreq",
+            "amount": "",
+            "source": "TAXES",
+            "target": "monthly"
+        },
+        {
+            "attr": "hasStartDate",
+            "amount": "",
+            "source": "TAXES",
+            "target": "2021-04-15"
+        },
+        {
+            "attr": "hasStopDate",
+            "amount": "",
+            "source": "TAXES",
+            "target": "currentDay+1YR"
+        },
+        {
+            "attr": "hasAmount",
+            "amount": "",
+            "source": "TAXES",
+            "target": "-350"
+        },
+        {
+            "attr": "isA",
+            "amount": "",
+            "source": "taxes_due",
+            "target": "category"
+        },
+        {
+            "attr": "isA",
+            "amount": "",
+            "source": "20000",
+            "target": "Balance"
+        },
+        {
+            "attr": "hasType_trans",
+            "amount": "",
+            "source": "expense",
+            "target": "MORTGAGE"
+        },
+        {
+            "attr": "isA",
+            "amount": "",
+            "source": "expense",
+            "target": "TypeTransaction"
+        },
+        {
+            "attr": "isA",
+            "amount": "",
+            "source": "category",
+            "target": "mortgage"
+        },
+        {
+            "attr": "isA",
+            "amount": "",
+            "source": "category",
+            "target": "utilities"
+        },
+        {
+            "attr": "isA",
+            "amount": "",
+            "source": "category",
+            "target": "salary"
+        },
+        {
+            "attr": "hasCategory",
+            "amount": "",
+            "source": "MORTGAGE",
+            "target": "mortgage"
+        },
+        {
+            "attr": "hasBalance",
+            "amount": "",
+            "source": "MORTGAGE",
+            "target": "235_000"
+        },
+        {
+            "attr": "hasFreq",
+            "amount": "",
+            "source": "MORTGAGE",
+            "target": "monthly"
+        },
+        {
+            "attr": "hasStartDate",
+            "amount": "",
+            "source": "MORTGAGE",
+            "target": "2021-07-01"
+        },
+        {
+            "attr": "hasStopDate",
+            "amount": "",
+            "source": "MORTGAGE",
+            "target": "currentDay+1YR"
+        },
+        {
+            "attr": "hasAmount",
+            "amount": "",
+            "source": "MORTGAGE",
+            "target": "-2450"
+        },
+        {
+            "attr": "isA",
+            "amount": "",
+            "source": "235_000",
+            "target": "Balance"
+        },
+        {
+            "attr": "isA",
+            "amount": "",
+            "source": "Balance",
+            "target": "None"
+        },
+        {
+            "attr": "isA",
+            "amount": "",
+            "source": "monthly",
+            "target": "frequency"
+        },
+        {
+            "attr": "isA",
+            "amount": "",
+            "source": "frequency",
+            "target": "weekly"
+        },
+        {
+            "attr": "isA",
+            "amount": "",
+            "source": "frequency",
+            "target": "bi-weekly"
+        },
+        {
+            "attr": "hasStopDate",
+            "amount": "",
+            "source": "currentDay+1YR",
+            "target": "JimSalary"
+        },
+        {
+            "attr": "isA",
+            "amount": "",
+            "source": "-350",
+            "target": "Amount"
+        },
+        {
+            "attr": "isA",
+            "amount": "",
+            "source": "-2450",
+            "target": "Amount"
+        },
+        {
+            "attr": "isA",
+            "amount": "",
+            "source": "Amount",
+            "target": "2650"
+        },
+        {
+            "attr": "hasFreq",
+            "amount": "",
+            "source": "bi-weekly",
+            "target": "JimSalary"
+        },
+        {
+            "attr": "isA",
+            "amount": "",
+            "source": "TypeTransaction",
+            "target": "income"
+        },
+        {
+            "attr": "hasStartDate",
+            "amount": "",
+            "source": "JimSalary",
+            "target": "2021-06-18"
+        },
+        {
+            "attr": "hasAmount",
+            "amount": "",
+            "source": "JimSalary",
+            "target": "2650"
+        },
+        {
+            "attr": "hasBalance",
+            "amount": "",
+            "source": "JimSalary",
+            "target": "None"
+        },
+        {
+            "attr": "hasType_trans",
+            "amount": "",
+            "source": "JimSalary",
+            "target": "income"
+        },
+        {
+            "attr": "hasCategory",
+            "amount": "",
+            "source": "JimSalary",
+            "target": "salary"
+        }
+    ]
+}
