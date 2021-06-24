@@ -6,11 +6,17 @@ import sys
 
 from networkx import exception
 
-import undirected_graphs as ug
+# import undirected_graphs as ug
+
+from sql_to_graph import GraphPlot as gp
+import support_pkg.file_access as fac
+
+
 
 # %%
-graph_file_location='C:/Users/dowdj/OneDrive/Documents/GitHub/graph-theory-applications/basics/data/'
-graph_filename='transactions.txt'
+graph_file_location=fac.graph_file_location
+graph_filename='press_sensors.json'
+graph_filename='press_ctrl_sensors.json'
 
 # graph_type='ug'
 graph_type='dig'
@@ -24,7 +30,7 @@ try:
     directed=True if graph_type=='dig' else False
         
     G=nx.node_link_graph(data_dict, directed=directed, multigraph=False, attrs=None)
-    ug.GraphPlot(G)
+    gp(G)
 except FileNotFoundError:
     print('You Need A File')
 
@@ -42,10 +48,16 @@ def analysis_of_graph(G):
     except Exception as err:
         print(err)
 
+    node=['4 to 20 mA','Inactive','Expired','Active','CELL20']
+    # print(list(G.predecessors(node)))
+    # print(f'Count of {node}: {len(list(G.predecessors(node)))}')
 
-    print(f'Clustering:\n{nx.clustering(G)}\n')
+    print([f'Count of {x}: {len(list(G.predecessors(x)))}' for x in node])
 
-    print(f'Clustering Histogram:\n{nx.degree_histogram(G)}\n')
+    print(nx.info(G))
+
+    # print(f'Clustering:\n{nx.clustering(G)}\n')
+    # print(f'Clustering Histogram:\n{nx.degree_histogram(G)}\n')
 
     
 # %%

@@ -28,7 +28,7 @@ def get_edge_data(df,u,v,graph_filename,**kwargs):
 
         edge_list.append(t)
 
-    a=stg.Graphs(graph_filename=graph_filename)     # instantiate empty graph
+    a=stg.Graphs(graph_filename=graph_filename,graph_type='dig')     # instantiate empty graph
 
     a.edge(edge_list)
 

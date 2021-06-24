@@ -153,24 +153,6 @@
             "target": "TypeTransaction"
         },
         {
-            "attr": "isA",
-            "amount": "",
-            "source": "category",
-            "target": "mortgage"
-        },
-        {
-            "attr": "isA",
-            "amount": "",
-            "source": "category",
-            "target": "utilities"
-        },
-        {
-            "attr": "isA",
-            "amount": "",
-            "source": "category",
-            "target": "salary"
-        },
-        {
             "attr": "hasCategory",
             "amount": "",
             "source": "MORTGAGE",
@@ -205,6 +187,12 @@
             "amount": "",
             "source": "MORTGAGE",
             "target": "-2450"
+        },
+        {
+            "attr": "isA",
+            "amount": "",
+            "source": "mortgage",
+            "target": "category"
         },
         {
             "attr": "isA",
@@ -261,10 +249,22 @@
             "target": "2650"
         },
         {
+            "attr": "isA",
+            "amount": "",
+            "source": "weekly",
+            "target": "frequency"
+        },
+        {
             "attr": "hasFreq",
             "amount": "",
             "source": "bi-weekly",
             "target": "JimSalary"
+        },
+        {
+            "attr": "isA",
+            "amount": "",
+            "source": "utilities",
+            "target": "category"
         },
         {
             "attr": "isA",
@@ -301,6 +301,12 @@
             "amount": "",
             "source": "JimSalary",
             "target": "salary"
+        },
+        {
+            "attr": "isA",
+            "amount": "",
+            "source": "salary",
+            "target": "category"
         }
     ]
 }
