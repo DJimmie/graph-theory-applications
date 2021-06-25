@@ -4,13 +4,12 @@
 import os
 
 graph_file_location='C:/Users/dowdj/OneDrive/Documents/GitHub/graph-theory-applications/sql_to_graph/data/'
+emr_server=r'C:\Users\dowdj\OneDrive\Documents\GitHub\EM-Database\emr_database.db'
+sensor_server=r'C:\Users\dowdj\OneDrive\Documents\GitHub\Sensor-Inventory-Database\database.db'
 
 def database_servers():
 
-    
-    server=r'C:\Users\dowdj\OneDrive\Documents\GitHub\Sensor-Inventory-Database\database.db'  #production database
-    
-
+    server=r'C:\Users\dowdj\OneDrive\Documents\GitHub\Sensor-Inventory-Database\database.db' 
     return server
 
 
