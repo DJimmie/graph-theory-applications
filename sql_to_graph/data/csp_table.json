@@ -1142,6 +1142,990 @@
         },
         {
             "id": "Blower"
+        },
+        {
+            "id": "Z1E-PPC"
+        },
+        {
+            "id": "Russells Unit-1"
+        },
+        {
+            "id": "Russells Unit-3"
+        },
+        {
+            "id": "Z3-LQD-PT1"
+        },
+        {
+            "id": "GB Shop Air Regulator"
+        },
+        {
+            "id": "Liquid Bypass"
+        },
+        {
+            "id": "Shop Air Supply Dump Valve"
+        },
+        {
+            "id": "Shop Air Supply"
+        },
+        {
+            "id": "Operator Key Switch"
+        },
+        {
+            "id": "Control Console"
+        },
+        {
+            "id": "Z3-HYDRO-P5-ASL400-01SNP"
+        },
+        {
+            "id": "Bunker Door"
+        },
+        {
+            "id": "HSE System"
+        },
+        {
+            "id": "Digital Interface"
+        },
+        {
+            "id": "System I/O"
+        },
+        {
+            "id": "Latch Motor Power Switch"
+        },
+        {
+            "id": "Electrical Power"
+        },
+        {
+            "id": "Executive Override Key"
+        },
+        {
+            "id": "MSV-1"
+        },
+        {
+            "id": "Motorized Valve Assembly"
+        },
+        {
+            "id": "Z2G-PPC"
+        },
+        {
+            "id": "Z3-HYDRO-P2-ASL25-01SNPV"
+        },
+        {
+            "id": "Z1F-PIV"
+        },
+        {
+            "id": "Pneumatic Valve Assembly"
+        },
+        {
+            "id": "Russells Unit-2"
+        },
+        {
+            "id": "Bemco Unit -4"
+        },
+        {
+            "id": "Z3-HYDRO-P3-ASL60-01SNP"
+        },
+        {
+            "id": "Manifold Room Door"
+        },
+        {
+            "id": "Computer (DAQ Consoles)-LPC-501"
+        },
+        {
+            "id": "Z3-LQD-PPC1"
+        },
+        {
+            "id": "Z2H-PIV"
+        },
+        {
+            "id": "Z1B-PIV"
+        },
+        {
+            "id": "Russells Unit-5"
+        },
+        {
+            "id": "Russells Unit-6"
+        },
+        {
+            "id": "Russells Unit-7"
+        },
+        {
+            "id": "Russells Unit-8"
+        },
+        {
+            "id": "Electrical Service-480VAC"
+        },
+        {
+            "id": "Tescom 30K Pressure Regulator"
+        },
+        {
+            "id": "5K Accumulator Rack"
+        },
+        {
+            "id": "Camera (Bunker)"
+        },
+        {
+            "id": "Camera System"
+        },
+        {
+            "id": "DAQ-CTRL System Serial Interface"
+        },
+        {
+            "id": null
+        },
+        {
+            "id": "DAQ-CTRL System Software"
+        },
+        {
+            "id": "Data Acquisition "
+        },
+        {
+            "id": "CAMDAQ -7"
+        },
+        {
+            "id": "Z1A-PT"
+        },
+        {
+            "id": "H-10"
+        },
+        {
+            "id": "Gas Booster G-15"
+        },
+        {
+            "id": "VENT-2-PT"
+        },
+        {
+            "id": "CSZ Thermal Chamber"
+        },
+        {
+            "id": "Thermal Chamber"
+        },
+        {
+            "id": "MSV-1-PT"
+        },
+        {
+            "id": "Z3-HYDRO-P4-ASL250-01SNP"
+        },
+        {
+            "id": "VENT-1-PT"
+        },
+        {
+            "id": "W.C. 3035"
+        },
+        {
+            "id": "Cranes"
+        },
+        {
+            "id": "Computer Console UPS"
+        },
+        {
+            "id": "Control Pod (PIT5)"
+        },
+        {
+            "id": "Manifold "
+        },
+        {
+            "id": "Tescom"
+        },
+        {
+            "id": "Submersible Sump Pump"
+        },
+        {
+            "id": "Shop Air Compressor (VS 170)"
+        },
+        {
+            "id": "DAQ System Enclosures"
+        },
+        {
+            "id": "Air Supply Pressure Switch"
+        },
+        {
+            "id": "Digital Pressure Switch"
+        },
+        {
+            "id": "HYTORC Wrench"
+        },
+        {
+            "id": "Torque Tools"
+        },
+        {
+            "id": "UPS SMT2200 (AP9613)"
+        },
+        {
+            "id": "UPS"
+        },
+        {
+            "id": "Nitrogen Supply System"
+        },
+        {
+            "id": "UPS (Tripp-Lite)"
+        },
+        {
+            "id": "Test Bunker (structure)"
+        },
+        {
+            "id": "WC-3042 (Crane)"
+        },
+        {
+            "id": "Gas Booster-AG-303-5585423-7"
+        },
+        {
+            "id": "Manifold Door Safety Interlock"
+        },
+        {
+            "id": "O2 Sensor (PIT4)"
+        },
+        {
+            "id": "Oxygen Monitoring"
+        },
+        {
+            "id": "Vescor Pump W-11"
+        },
+        {
+            "id": "Check Valve"
+        },
+        {
+            "id": "Console Computer"
+        },
+        {
+            "id": "Control Pod (PIT4)"
+        },
+        {
+            "id": "Manifold Valve"
+        },
+        {
+            "id": "Triplex Pumps (Drilling Controls)"
+        },
+        {
+            "id": "Water Filter Housing (Manifold Room)-6PAU1"
+        },
+        {
+            "id": "Circ_Pump(CRN15-03-A-FGJ-G-V-HQQV)"
+        },
+        {
+            "id": "PLC (PIT5)"
+        },
+        {
+            "id": "W.C. 3037 (Crane)"
+        },
+        {
+            "id": "Z1E-BMIV"
+        },
+        {
+            "id": "Z1A-PPC"
+        },
+        {
+            "id": "Bemco Unit -5"
+        },
+        {
+            "id": "Control Pod (PIT3)"
+        },
+        {
+            "id": "O2 Sensor (Test Pit-2)"
+        },
+        {
+            "id": "Haskel Pumps H-3"
+        },
+        {
+            "id": "MISV"
+        },
+        {
+            "id": "HPU (Drilling Pits)"
+        },
+        {
+            "id": "Hydraulic Power Unit"
+        },
+        {
+            "id": "Z1-MVLIV-60VM9071-O1S"
+        },
+        {
+            "id": "Evans Unit (C12-14_16 )"
+        },
+        {
+            "id": "Water Reclamation Unit"
+        },
+        {
+            "id": "Electrical Outlets"
+        },
+        {
+            "id": "Cover (PIT 2)"
+        },
+        {
+            "id": "PIT Cover"
+        },
+        {
+            "id": "Pressure Regulator (40-3114)"
+        },
+        {
+            "id": "PC Monitor"
+        },
+        {
+            "id": "Gas Booster-AG-303-5585423-5"
+        },
+        {
+            "id": "Pressure Beacon"
+        },
+        {
+            "id": "Annunciator"
+        },
+        {
+            "id": "Bemco Unit -3"
+        },
+        {
+            "id": "Camera (Drilling Pit)"
+        },
+        {
+            "id": "Dynex Pump H-6"
+        },
+        {
+            "id": "Pit 5 HPU"
+        },
+        {
+            "id": "Camera Servers (High Bay Control Room)"
+        },
+        {
+            "id": "TCU (Russells Units)"
+        },
+        {
+            "id": "Solenoid Valve (225B-521JC)"
+        },
+        {
+            "id": "Gas Booster AG-303 "
+        },
+        {
+            "id": "Sump Pump (medium bay bunkers)"
+        },
+        {
+            "id": "DAQ-CTRL System (cRIO)"
+        },
+        {
+            "id": "Oxygen Alarm (Audible)"
+        },
+        {
+            "id": "Control Valve (SK-200660-01)"
+        },
+        {
+            "id": "Tescom Regulator (54-2000 Series)"
+        },
+        {
+            "id": "Evans Unit (A24-23.25)"
+        },
+        {
+            "id": "Water Reclaimation"
+        },
+        {
+            "id": "O2 Sensor (Drilling Pits)"
+        },
+        {
+            "id": "Pressure Regulator (HPU Pits 1-4)"
+        },
+        {
+            "id": "Russells Unit-11"
+        },
+        {
+            "id": "Bemco Unit -2"
+        },
+        {
+            "id": "Russells Unit-4"
+        },
+        {
+            "id": "Emergency shut down system"
+        },
+        {
+            "id": "Gas Booster G-12"
+        },
+        {
+            "id": "1 MM PTM"
+        },
+        {
+            "id": "Pull Test Machine"
+        },
+        {
+            "id": "Oxygen Alarm (Beacon)"
+        },
+        {
+            "id": "Z2G-PIV"
+        },
+        {
+            "id": "Network Port"
+        },
+        {
+            "id": "Norbar Torque Tool"
+        },
+        {
+            "id": "EMR_database.py"
+        },
+        {
+            "id": "Software (Operations)"
+        },
+        {
+            "id": "HYDRO 45000"
+        },
+        {
+            "id": "None"
+        },
+        {
+            "id": "2.0 MM PTM"
+        },
+        {
+            "id": "Hydac ESD ball valve in pit 5 HPU"
+        },
+        {
+            "id": "WC-3034 crane"
+        },
+        {
+            "id": "Water supply line"
+        },
+        {
+            "id": "HPU Reliability"
+        },
+        {
+            "id": "CAMDAQ-2"
+        },
+        {
+            "id": "Reliability Triplex pump"
+        },
+        {
+            "id": "WC-3028 crane"
+        },
+        {
+            "id": "Evans unit"
+        },
+        {
+            "id": "Jib Crane"
+        },
+        {
+            "id": "Sink faucet"
+        },
+        {
+            "id": "TBD"
+        },
+        {
+            "id": "Bemco Unit -6"
+        },
+        {
+            "id": "Haskel hydraulic booster"
+        },
+        {
+            "id": "Overcurrent Protection"
+        },
+        {
+            "id": "Bemco Unit -1"
+        },
+        {
+            "id": "Sink"
+        },
+        {
+            "id": "Waste Water"
+        },
+        {
+            "id": "Software "
+        },
+        {
+            "id": "DAQ System Programming (certs)"
+        },
+        {
+            "id": "Electrical Service-220VAC"
+        },
+        {
+            "id": "Water return line"
+        },
+        {
+            "id": "Actuator interface"
+        },
+        {
+            "id": "Tescom ER5000"
+        },
+        {
+            "id": "CMM"
+        },
+        {
+            "id": "Inspection"
+        },
+        {
+            "id": "DAQ System controller (cRIO) SN 1BDC855"
+        },
+        {
+            "id": "None specified"
+        },
+        {
+            "id": "Evans unit at B23"
+        },
+        {
+            "id": "Cell Wiring"
+        },
+        {
+            "id": "CAMDAQ monitor"
+        },
+        {
+            "id": "Russells Unit-10"
+        },
+        {
+            "id": "Chiller Unit"
+        },
+        {
+            "id": "Z1C-PIV"
+        },
+        {
+            "id": "CAMDAQ 7"
+        },
+        {
+            "id": "Manifold Needle Valve-Autoclave"
+        },
+        {
+            "id": "Needle Valve"
+        },
+        {
+            "id": "Crane WC3029"
+        },
+        {
+            "id": "Water Filter Cartridge (Manifold Room)-2P696"
+        },
+        {
+            "id": "Z1E-PIV"
+        },
+        {
+            "id": "Air hose reel"
+        },
+        {
+            "id": "HASKEL WATER PUMP W-5"
+        },
+        {
+            "id": "Z2G-BMIV"
+        },
+        {
+            "id": "Crane 3031"
+        },
+        {
+            "id": "Jib Crane at B21"
+        },
+        {
+            "id": "Water Supply"
+        },
+        {
+            "id": "Cell console (mechanical)"
+        },
+        {
+            "id": "Enclosure"
+        },
+        {
+            "id": "Sensor wiring"
+        },
+        {
+            "id": "Wiring "
+        },
+        {
+            "id": "25 T EnerPac Press"
+        },
+        {
+            "id": "Hydraulic Press"
+        },
+        {
+            "id": "Russells Unit-9"
+        },
+        {
+            "id": "HYTORC Pump"
+        },
+        {
+            "id": "Hydro Pac pump  SR# P14-1518-1"
+        },
+        {
+            "id": "Firelab Water Reservoir"
+        },
+        {
+            "id": "Water Reservior"
+        },
+        {
+            "id": "TCU F4SH-KKA6 Controller"
+        },
+        {
+            "id": "Duct Booster Fan"
+        },
+        {
+            "id": "STCU -1"
+        },
+        {
+            "id": "STCU -2"
+        },
+        {
+            "id": "STCU -3"
+        },
+        {
+            "id": "DAQ Programming (general)"
+        },
+        {
+            "id": "DAQ programming"
+        },
+        {
+            "id": "MSV-2"
+        },
+        {
+            "id": "Haskel Pumps H-4"
+        },
+        {
+            "id": "Mobile Water Pump W-1"
+        },
+        {
+            "id": "Thermocouple"
+        },
+        {
+            "id": "Temperature Sensor"
+        },
+        {
+            "id": "Z1-MSLIV"
+        },
+        {
+            "id": "Z2G-PVV"
+        },
+        {
+            "id": "Crane WC3030"
+        },
+        {
+            "id": "3 way Pressure Regulator"
+        },
+        {
+            "id": "Z2H-PT"
+        },
+        {
+            "id": "Z1D-BMIV"
+        },
+        {
+            "id": "Cell Door"
+        },
+        {
+            "id": "Facility Space Heater"
+        },
+        {
+            "id": "Facility Heating"
+        },
+        {
+            "id": "High pressure hose"
+        },
+        {
+            "id": "Pressure Sensor Cable"
+        },
+        {
+            "id": "Sensor Wiring"
+        },
+        {
+            "id": "Cover (PIT 4)"
+        },
+        {
+            "id": "N/A"
+        },
+        {
+            "id": "TCU hose"
+        },
+        {
+            "id": "White accumulator"
+        },
+        {
+            "id": "Hydraulic component"
+        },
+        {
+            "id": ""
+        },
+        {
+            "id": "Hydro-Pac Pump W-14"
+        },
+        {
+            "id": "Safety interlock system"
+        },
+        {
+            "id": "VENT-1"
+        },
+        {
+            "id": "Z1A-PIV"
+        },
+        {
+            "id": "Z1B-PVV-60VM9081-C1S"
+        },
+        {
+            "id": "VBV-2-60VM9081-FRC2"
+        },
+        {
+            "id": "Gas Booster G-8"
+        },
+        {
+            "id": "Z3-LQD-PPC2"
+        },
+        {
+            "id": "Z3 to Z1 Gas-60VM9075-O1S"
+        },
+        {
+            "id": "Oil heater unit"
+        },
+        {
+            "id": "Oil Heater"
+        },
+        {
+            "id": "Z2-MVLIV-60VM9071-O1S"
+        },
+        {
+            "id": "Manifold wiring (general)"
+        },
+        {
+            "id": "Door Lock"
+        },
+        {
+            "id": "CAT Pump (Firelab)"
+        },
+        {
+            "id": "Pac-Seal KR-140 Regulator"
+        },
+        {
+            "id": "Selector Valve"
+        },
+        {
+            "id": "Tescom Regulator "
+        },
+        {
+            "id": "Monitors (DAQ Consoles)-VA32AQ"
+        },
+        {
+            "id": "Electrical Service-120VAC"
+        },
+        {
+            "id": "Portable PTZ Camera "
+        },
+        {
+            "id": "Gas Burner"
+        },
+        {
+            "id": "Fire Lab Doors"
+        },
+        {
+            "id": "CAMDAQ-12"
+        },
+        {
+            "id": "DAQ-CTRL System Analog Interface"
+        },
+        {
+            "id": "Z3-SV-P4"
+        },
+        {
+            "id": "Pump Air Supply Solenoid"
+        },
+        {
+            "id": "Pit 1 Wellbore HPU"
+        },
+        {
+            "id": "Gas Burner (Flame #1)"
+        },
+        {
+            "id": "Z1D-PVV"
+        },
+        {
+            "id": "High Pressure Manifold Assembly"
+        },
+        {
+            "id": "Z2H-PVV"
+        },
+        {
+            "id": "Fire Lab Flame Sensor"
+        },
+        {
+            "id": "Air Conditioner"
+        },
+        {
+            "id": "Pit 3 POD"
+        },
+        {
+            "id": "Dynex Pump"
+        },
+        {
+            "id": "CAMDAQ 6"
+        },
+        {
+            "id": "Electrical service"
+        },
+        {
+            "id": "HASKEL WATER PUMP W-4"
+        },
+        {
+            "id": "Gas Booster G-17"
+        },
+        {
+            "id": "Burner #2"
+        },
+        {
+            "id": "Control Pod (PIT6)"
+        },
+        {
+            "id": "H-9"
+        },
+        {
+            "id": "Pit (1-5) Control Pods"
+        },
+        {
+            "id": "Welding Positioner "
+        },
+        {
+            "id": "Welding Equipment"
+        },
+        {
+            "id": "Z1A-PSV"
+        },
+        {
+            "id": "Camera (BT)"
+        },
+        {
+            "id": "Tescom 50-2065D24A270"
+        },
+        {
+            "id": "Large Metal Cutting Saw  "
+        },
+        {
+            "id": "Shop Tools"
+        },
+        {
+            "id": "PC (DAQ Consoles)"
+        },
+        {
+            "id": "PC"
+        },
+        {
+            "id": "WC-3044"
+        },
+        {
+            "id": "Accumulators-(Silver Bottles-Grey Rack)"
+        },
+        {
+            "id": "Air Compressor"
+        },
+        {
+            "id": "HPP Vent Valve"
+        },
+        {
+            "id": "Air Supply"
+        },
+        {
+            "id": "Pit # 3 door"
+        },
+        {
+            "id": "Pit # 6 drive"
+        },
+        {
+            "id": "Function A Tescom"
+        },
+        {
+            "id": "Function A choke"
+        },
+        {
+            "id": "Choke"
+        },
+        {
+            "id": "PIT Control Pod-Isolation Ball Valves"
+        },
+        {
+            "id": "Pit-1"
+        },
+        {
+            "id": "Testcom"
+        },
+        {
+            "id": "Pit-2"
+        },
+        {
+            "id": "Pit-3"
+        },
+        {
+            "id": "NonePit-5"
+        },
+        {
+            "id": "Pit-4"
+        },
+        {
+            "id": "Pit-5"
+        },
+        {
+            "id": "P4"
+        },
+        {
+            "id": "LN2 Solenoid-Magnatrol"
+        },
+        {
+            "id": "Accumulator 20K"
+        },
+        {
+            "id": "Accumulator 15K"
+        },
+        {
+            "id": "Diaphram pump"
+        },
+        {
+            "id": "Cover (PIT 3)"
+        },
+        {
+            "id": "CamDaq-13"
+        },
+        {
+            "id": "Pit 1 ( cover Gearbox/Motor assy)"
+        },
+        {
+            "id": "Function A KR140"
+        },
+        {
+            "id": "Pressure Relief Vvalce"
+        },
+        {
+            "id": "Function B Choke"
+        },
+        {
+            "id": "Floor Scrubber"
+        },
+        {
+            "id": "Overhead Light"
+        },
+        {
+            "id": "Facility Lighting"
+        },
+        {
+            "id": "Z1F-PT"
+        },
+        {
+            "id": "H-7 (B&T HPU)"
+        },
+        {
+            "id": "Z1F-PVV"
+        },
+        {
+            "id": "Electrical service- 480VAC"
+        },
+        {
+            "id": "480vac"
+        },
+        {
+            "id": "Uninterruptible Power Supply (UPS)-SU1500RTXL2UA"
+        },
+        {
+            "id": "Z2G-PIV-PT"
+        },
+        {
+            "id": "Ladder #2"
+        },
+        {
+            "id": "Z3 to Z2 Gas-60VM9075-O1S"
+        },
+        {
+            "id": "Gas Booster High Valve"
+        },
+        {
+            "id": "Optical Turn Counter"
+        },
+        {
+            "id": "30 KSI Pressure Regulator"
+        },
+        {
+            "id": "Z1C-PPC"
+        },
+        {
+            "id": "ESD Ball Valve"
+        },
+        {
+            "id": "Accumulator Ball Valves "
+        },
+        {
+            "id": "HCTC Systems EMR Program"
         }
     ],
     "links": [
@@ -1162,6 +2146,7 @@
         },
         {
             "UID": "02192020143209CSP",
+            "EMR_ID": "EMR-721",
             "source": "Solenoid Valve (manifold room)",
             "target": "Solenoid"
         },
@@ -1187,6 +2172,7 @@
         },
         {
             "UID": null,
+            "EMR_ID": "EMR-515",
             "source": "Proportional Pressure Controller (manifold room)",
             "target": "Proportional Pressure Controller"
         },
@@ -1209,6 +2195,11 @@
             "UID": "02172020150022CSP",
             "source": "TCU Ramping Controller",
             "target": "Temperature Controller"
+        },
+        {
+            "EMR_ID": "EMR-592",
+            "source": "TCU Ramping Controller",
+            "target": "TCU F4SH-KKA6 Controller"
         },
         {
             "UID": null,
@@ -1252,6 +2243,7 @@
         },
         {
             "UID": null,
+            "EMR_ID": "EMR-981",
             "source": "Gas Booster (AG-303)",
             "target": "Gas Booster"
         },
@@ -1412,6 +2404,7 @@
         },
         {
             "UID": "03172020140920CSP",
+            "EMR_ID": "EMR-797",
             "source": "Pneumatic Valve Assembly (60KSI Needle Valve)",
             "target": "60KSI Valve Assembly"
         },
@@ -1507,6 +2500,7 @@
         },
         {
             "UID": null,
+            "EMR_ID": "EMR-728",
             "source": "Pressure Regulator",
             "target": "Pressure Regulator"
         },
@@ -1547,11 +2541,13 @@
         },
         {
             "UID": null,
+            "EMR_ID": "EMR-927",
             "source": "Pressure Regulator",
             "target": "Tescom 50-2061D24S250 (component)"
         },
         {
             "UID": null,
+            "EMR_ID": "EMR-389",
             "source": "Pressure Regulator",
             "target": "Pressure Regulator (Gas Booster Air Supply Regulator)"
         },
@@ -1577,6 +2573,7 @@
         },
         {
             "UID": null,
+            "EMR_ID": "EMR-427",
             "source": "Pressure Regulator",
             "target": "Air Pressure Regulator (Inspection-CMM)"
         },
@@ -1587,13 +2584,85 @@
         },
         {
             "UID": null,
+            "EMR_ID": "EMR-441",
             "source": "Pressure Regulator",
             "target": "Pressure Regulator (Function A)"
         },
         {
             "UID": null,
+            "EMR_ID": "EMR-664",
             "source": "Pressure Regulator",
             "target": "Pressure Regulator (Z3-LQD-30KSI)"
+        },
+        {
+            "EMR_ID": "EMR-210",
+            "source": "Pressure Regulator",
+            "target": "GB Shop Air Regulator"
+        },
+        {
+            "EMR_ID": "EMR-674",
+            "source": "Pressure Regulator",
+            "target": "Tescom 30K Pressure Regulator"
+        },
+        {
+            "EMR_ID": "EMR-375",
+            "source": "Pressure Regulator",
+            "target": "Tescom"
+        },
+        {
+            "EMR_ID": "EMR-319",
+            "source": "Pressure Regulator",
+            "target": "Control Pod (PIT3)"
+        },
+        {
+            "EMR_ID": "EMR-348",
+            "source": "Pressure Regulator",
+            "target": "Pressure Regulator (40-3114)"
+        },
+        {
+            "EMR_ID": "EMR-399",
+            "source": "Pressure Regulator",
+            "target": "Tescom Regulator (54-2000 Series)"
+        },
+        {
+            "EMR_ID": "EMR-409",
+            "source": "Pressure Regulator",
+            "target": "Pressure Regulator (HPU Pits 1-4)"
+        },
+        {
+            "EMR_ID": "EMR-634",
+            "source": "Pressure Regulator",
+            "target": "3 way Pressure Regulator"
+        },
+        {
+            "EMR_ID": "EMR-739",
+            "source": "Pressure Regulator",
+            "target": "Pac-Seal KR-140 Regulator"
+        },
+        {
+            "EMR_ID": "EMR-840",
+            "source": "Pressure Regulator",
+            "target": "Tescom Regulator "
+        },
+        {
+            "EMR_ID": "EMR-893",
+            "source": "Pressure Regulator",
+            "target": "Air Supply"
+        },
+        {
+            "EMR_ID": "EMR-910",
+            "source": "Pressure Regulator",
+            "target": "Function A Tescom"
+        },
+        {
+            "EMR_ID": "EMR-903",
+            "source": "Pressure Regulator",
+            "target": "Pit-1"
+        },
+        {
+            "EMR_ID": "EMR-994",
+            "source": "Pressure Regulator",
+            "target": "30 KSI Pressure Regulator"
         },
         {
             "UID": null,
@@ -1602,6 +2671,7 @@
         },
         {
             "UID": null,
+            "EMR_ID": "EMR-571",
             "source": "Manifold Room Door Safety Switch",
             "target": "Safety Interlock"
         },
@@ -1672,6 +2742,7 @@
         },
         {
             "UID": null,
+            "EMR_ID": "EMR-733",
             "source": "UPS Battery Replacement (Waller Bunkers)",
             "target": "Uninterruptible Power Supply (UPS) "
         },
@@ -1682,6 +2753,7 @@
         },
         {
             "UID": null,
+            "EMR_ID": "EMR-534",
             "source": "Bunker Beacon Light",
             "target": "Visual Annunciators"
         },
@@ -1734,6 +2806,11 @@
             "UID": null,
             "source": "Thermal Chamber (Pit 5)",
             "target": "Temperature Control Unit"
+        },
+        {
+            "EMR_ID": "EMR-471",
+            "source": "Thermal Chamber (Pit 5)",
+            "target": "Thermal Chamber"
         },
         {
             "UID": null,
@@ -1837,6 +2914,7 @@
         },
         {
             "UID": null,
+            "EMR_ID": "EMR-977",
             "source": "Sump Pump (Medium Bay Test Cells)",
             "target": "Sump Pump"
         },
@@ -1847,6 +2925,7 @@
         },
         {
             "UID": null,
+            "EMR_ID": "EMR-795",
             "source": "Solenoid Valve (bunker)",
             "target": "Solenoid Valve"
         },
@@ -1857,8 +2936,14 @@
         },
         {
             "UID": null,
+            "EMR_ID": "EMR-730",
             "source": "DAQ System Programming ",
             "target": "DAQ-CTRL System"
+        },
+        {
+            "EMR_ID": "EMR-242",
+            "source": "DAQ System Programming ",
+            "target": "System I/O"
         },
         {
             "UID": null,
@@ -1942,6 +3027,7 @@
         },
         {
             "UID": null,
+            "EMR_ID": "EMR-908",
             "source": "VBV-1",
             "target": "Electric Actuated Flow Regulating Needle Valve"
         },
@@ -1952,6 +3038,7 @@
         },
         {
             "UID": null,
+            "EMR_ID": "EMR-984",
             "source": "Ball Valve-HYDAC (Drilling Controls)",
             "target": "Ball Valve"
         },
@@ -1962,6 +3049,7 @@
         },
         {
             "UID": null,
+            "EMR_ID": "EMR-419",
             "source": "Accumulator (Drilling Controls 10KSI)",
             "target": "Accumulators"
         },
@@ -2012,6 +3100,7 @@
         },
         {
             "UID": null,
+            "EMR_ID": "EMR-425",
             "source": "GROUP A TESCOM AB-FO_3_1",
             "target": "Electropneumatic Controller"
         },
@@ -2022,6 +3111,7 @@
         },
         {
             "UID": null,
+            "EMR_ID": "EMR-426",
             "source": "HYDRO_45000",
             "target": "Hydraulic Pump"
         },
@@ -2057,6 +3147,7 @@
         },
         {
             "UID": null,
+            "EMR_ID": "EMR-624",
             "source": "Barcode Scanner",
             "target": "Barcode Scanners"
         },
@@ -2112,6 +3203,7 @@
         },
         {
             "UID": "03172020095210CSP",
+            "EMR_ID": "EMR-992",
             "source": "Monitors (DAQ Consoles)",
             "target": "Computer Monitor"
         },
@@ -2137,6 +3229,7 @@
         },
         {
             "UID": null,
+            "EMR_ID": "EMR-632",
             "source": "DAQ System controller (cRIO)",
             "target": "DAQ-CTRL System"
         },
@@ -2216,12 +3309,18 @@
             "target": "Temperature Control Unit"
         },
         {
+            "EMR_ID": "EMR-509",
+            "source": "High Bay Chiller Unit",
+            "target": "Chiller Unit"
+        },
+        {
             "UID": null,
             "source": "HPU_H-11 (PHC-HU-3GPM-15K-30HP-SPCL)",
             "target": "PHC-HU-3GPM-15K-30HP-SPCL"
         },
         {
             "UID": null,
+            "EMR_ID": "EMR-661",
             "source": "HPU_H-11 (PHC-HU-3GPM-15K-30HP-SPCL)",
             "target": "Hydraulic Pump"
         },
@@ -2342,6 +3441,7 @@
         },
         {
             "UID": "02172020085705CSP",
+            "EMR_ID": "EMR-787",
             "source": "VBV-2",
             "target": "Electric Actuated Flow Regulating Needle Valve"
         },
@@ -2354,6 +3454,36 @@
             "UID": "02172020093633CSP",
             "source": "Gas Booster",
             "target": "Gas Booster"
+        },
+        {
+            "EMR_ID": "EMR-256",
+            "source": "Gas Booster",
+            "target": "Gas Booster G-15"
+        },
+        {
+            "EMR_ID": "EMR-293",
+            "source": "Gas Booster",
+            "target": "Gas Booster-AG-303-5585423-7"
+        },
+        {
+            "EMR_ID": "EMR-712",
+            "source": "Gas Booster",
+            "target": "Gas Booster-AG-303-5585423-5"
+        },
+        {
+            "EMR_ID": "EMR-848",
+            "source": "Gas Booster",
+            "target": "Gas Booster AG-303 "
+        },
+        {
+            "EMR_ID": "EMR-424",
+            "source": "Gas Booster",
+            "target": "Gas Booster G-12"
+        },
+        {
+            "EMR_ID": "EMR-823",
+            "source": "Gas Booster",
+            "target": "Gas Booster G-17"
         },
         {
             "UID": "02172020133926CSP",
@@ -2459,6 +3589,11 @@
             "UID": "03172020094705CSP",
             "source": "Check Valves (manifold room)",
             "target": "Check Valves (High Pressure)"
+        },
+        {
+            "EMR_ID": "EMR-300",
+            "source": "Check Valves (manifold room)",
+            "target": "Check Valve"
         },
         {
             "UID": "03172020104247CSP",
@@ -2659,6 +3794,1406 @@
             "UID": "03312020091511CSP",
             "source": "Strainer",
             "target": "Strainer"
+        },
+        {
+            "EMR_ID": "EMR-211",
+            "source": "Solenoid",
+            "target": "Liquid Bypass"
+        },
+        {
+            "EMR_ID": "EMR-436",
+            "source": "Solenoid",
+            "target": "Solenoid Valve (225B-521JC)"
+        },
+        {
+            "EMR_ID": "EMR-206",
+            "source": "Proportional Pressure Controller",
+            "target": "Z1E-PPC"
+        },
+        {
+            "EMR_ID": "EMR-223",
+            "source": "Proportional Pressure Controller",
+            "target": "Z2G-PPC"
+        },
+        {
+            "EMR_ID": "EMR-233",
+            "source": "Proportional Pressure Controller",
+            "target": "Z3-LQD-PPC1"
+        },
+        {
+            "EMR_ID": "EMR-316",
+            "source": "Proportional Pressure Controller",
+            "target": "Z1A-PPC"
+        },
+        {
+            "EMR_ID": "EMR-716",
+            "source": "Proportional Pressure Controller",
+            "target": "Z3-LQD-PPC2"
+        },
+        {
+            "EMR_ID": "EMR-995",
+            "source": "Proportional Pressure Controller",
+            "target": "Z1C-PPC"
+        },
+        {
+            "EMR_ID": "EMR-999",
+            "source": "Temperature Control Unit",
+            "target": "Russells Unit-1"
+        },
+        {
+            "EMR_ID": "EMR-935",
+            "source": "Temperature Control Unit",
+            "target": "Russells Unit-3"
+        },
+        {
+            "EMR_ID": "EMR-803",
+            "source": "Temperature Control Unit",
+            "target": "Russells Unit-2"
+        },
+        {
+            "EMR_ID": "EMR-982",
+            "source": "Temperature Control Unit",
+            "target": "Bemco Unit -4"
+        },
+        {
+            "EMR_ID": "EMR-926",
+            "source": "Temperature Control Unit",
+            "target": "Russells Unit-5"
+        },
+        {
+            "EMR_ID": "EMR-810",
+            "source": "Temperature Control Unit",
+            "target": "Russells Unit-6"
+        },
+        {
+            "EMR_ID": "EMR-909",
+            "source": "Temperature Control Unit",
+            "target": "Russells Unit-7"
+        },
+        {
+            "EMR_ID": "EMR-967",
+            "source": "Temperature Control Unit",
+            "target": "Russells Unit-8"
+        },
+        {
+            "EMR_ID": "EMR-904",
+            "source": "Temperature Control Unit",
+            "target": "Bemco Unit -5"
+        },
+        {
+            "EMR_ID": "EMR-978",
+            "source": "Temperature Control Unit",
+            "target": "Bemco Unit -3"
+        },
+        {
+            "EMR_ID": "EMR-376",
+            "source": "Temperature Control Unit",
+            "target": "TCU (Russells Units)"
+        },
+        {
+            "EMR_ID": "EMR-921",
+            "source": "Temperature Control Unit",
+            "target": "Russells Unit-11"
+        },
+        {
+            "EMR_ID": "EMR-931",
+            "source": "Temperature Control Unit",
+            "target": "Bemco Unit -2"
+        },
+        {
+            "EMR_ID": "EMR-947",
+            "source": "Temperature Control Unit",
+            "target": "Russells Unit-4"
+        },
+        {
+            "EMR_ID": "EMR-942",
+            "source": "Temperature Control Unit",
+            "target": "Bemco Unit -6"
+        },
+        {
+            "EMR_ID": "EMR-870",
+            "source": "Temperature Control Unit",
+            "target": "Bemco Unit -1"
+        },
+        {
+            "EMR_ID": "EMR-605",
+            "source": "Temperature Control Unit",
+            "target": "None specified"
+        },
+        {
+            "EMR_ID": "EMR-924",
+            "source": "Temperature Control Unit",
+            "target": "Russells Unit-10"
+        },
+        {
+            "EMR_ID": "EMR-697",
+            "source": "Temperature Control Unit",
+            "target": "Russells Unit-9"
+        },
+        {
+            "EMR_ID": "EMR-725",
+            "source": "Temperature Control Unit",
+            "target": "STCU -1"
+        },
+        {
+            "EMR_ID": "EMR-601",
+            "source": "Temperature Control Unit",
+            "target": "STCU -2"
+        },
+        {
+            "EMR_ID": "EMR-602",
+            "source": "Temperature Control Unit",
+            "target": "STCU -3"
+        },
+        {
+            "EMR_ID": "EMR-850",
+            "source": "Temperature Control Unit",
+            "target": "CSZ Thermal Chamber"
+        },
+        {
+            "EMR_ID": "EMR-681",
+            "source": "Temperature Control Unit",
+            "target": "TBD"
+        },
+        {
+            "EMR_ID": "EMR-696",
+            "source": "Temperature Control Unit",
+            "target": "TCU hose"
+        },
+        {
+            "EMR_ID": "EMR-558",
+            "source": "Uninterruptible Power Supply (UPS) ",
+            "target": "UPS (Tripp-Lite)"
+        },
+        {
+            "EMR_ID": "EMR-488",
+            "source": "Uninterruptible Power Supply (UPS) ",
+            "target": "Computer Console UPS"
+        },
+        {
+            "EMR_ID": "EMR-968",
+            "source": "Uninterruptible Power Supply (UPS) ",
+            "target": "Uninterruptible Power Supply (UPS)-SU1500RTXL2UA"
+        },
+        {
+            "EMR_ID": "EMR-393",
+            "source": "Directional Control Valve",
+            "target": "Control Valve (SK-200660-01)"
+        },
+        {
+            "EMR_ID": "EMR-943",
+            "source": "Directional Control Valve",
+            "target": "Function A KR140"
+        },
+        {
+            "EMR_ID": "EMR-421",
+            "source": "Solenoid Valve",
+            "target": "Emergency shut down system"
+        },
+        {
+            "EMR_ID": "EMR-930",
+            "source": "Solenoid Valve",
+            "target": "LN2 Solenoid-Magnatrol"
+        },
+        {
+            "EMR_ID": "EMR-328",
+            "source": "Hydraulic Pump",
+            "target": "Z3-HYDRO-P5-ASL400-01SNP"
+        },
+        {
+            "EMR_ID": "EMR-225",
+            "source": "Hydraulic Pump",
+            "target": "Z3-HYDRO-P2-ASL25-01SNPV"
+        },
+        {
+            "EMR_ID": "EMR-230",
+            "source": "Hydraulic Pump",
+            "target": "Z3-HYDRO-P3-ASL60-01SNP"
+        },
+        {
+            "EMR_ID": "EMR-639",
+            "source": "Hydraulic Pump",
+            "target": "H-10"
+        },
+        {
+            "EMR_ID": "EMR-262",
+            "source": "Hydraulic Pump",
+            "target": "Z3-HYDRO-P4-ASL250-01SNP"
+        },
+        {
+            "EMR_ID": "EMR-675",
+            "source": "Hydraulic Pump",
+            "target": "Submersible Sump Pump"
+        },
+        {
+            "EMR_ID": "EMR-430",
+            "source": "Hydraulic Pump",
+            "target": "Vescor Pump W-11"
+        },
+        {
+            "EMR_ID": "EMR-987",
+            "source": "Hydraulic Pump",
+            "target": "Triplex Pumps (Drilling Controls)"
+        },
+        {
+            "EMR_ID": "EMR-308",
+            "source": "Hydraulic Pump",
+            "target": "Circ_Pump(CRN15-03-A-FGJ-G-V-HQQV)"
+        },
+        {
+            "EMR_ID": "EMR-962",
+            "source": "Hydraulic Pump",
+            "target": "Haskel Pumps H-3"
+        },
+        {
+            "EMR_ID": "EMR-851",
+            "source": "Hydraulic Pump",
+            "target": "Dynex Pump H-6"
+        },
+        {
+            "EMR_ID": "EMR-463",
+            "source": "Hydraulic Pump",
+            "target": "HPU Reliability"
+        },
+        {
+            "EMR_ID": "EMR-465",
+            "source": "Hydraulic Pump",
+            "target": "Reliability Triplex pump"
+        },
+        {
+            "EMR_ID": "EMR-477",
+            "source": "Hydraulic Pump",
+            "target": "Haskel hydraulic booster"
+        },
+        {
+            "EMR_ID": "EMR-562",
+            "source": "Hydraulic Pump",
+            "target": "HASKEL WATER PUMP W-5"
+        },
+        {
+            "EMR_ID": "EMR-587",
+            "source": "Hydraulic Pump",
+            "target": "HYTORC Pump"
+        },
+        {
+            "EMR_ID": "EMR-590",
+            "source": "Hydraulic Pump",
+            "target": "Hydro Pac pump  SR# P14-1518-1"
+        },
+        {
+            "EMR_ID": "EMR-944",
+            "source": "Hydraulic Pump",
+            "target": "Haskel Pumps H-4"
+        },
+        {
+            "EMR_ID": "EMR-619",
+            "source": "Hydraulic Pump",
+            "target": "Mobile Water Pump W-1"
+        },
+        {
+            "EMR_ID": "EMR-699",
+            "source": "Hydraulic Pump",
+            "target": "Hydro-Pac Pump W-14"
+        },
+        {
+            "EMR_ID": "EMR-769",
+            "source": "Hydraulic Pump",
+            "target": "Hydraulic Pump"
+        },
+        {
+            "EMR_ID": "EMR-918",
+            "source": "Hydraulic Pump",
+            "target": "Dynex Pump"
+        },
+        {
+            "EMR_ID": "EMR-818",
+            "source": "Hydraulic Pump",
+            "target": "HASKEL WATER PUMP W-4"
+        },
+        {
+            "EMR_ID": "EMR-838",
+            "source": "Hydraulic Pump",
+            "target": "H-9"
+        },
+        {
+            "EMR_ID": "EMR-919",
+            "source": "Hydraulic Pump",
+            "target": "P4"
+        },
+        {
+            "EMR_ID": "EMR-959",
+            "source": "Hydraulic Pump",
+            "target": "H-7 (B&T HPU)"
+        },
+        {
+            "EMR_ID": "EMR-327",
+            "source": "60KSI Valve Assembly",
+            "target": "Z1-MVLIV-60VM9071-O1S"
+        },
+        {
+            "EMR_ID": "EMR-711",
+            "source": "60KSI Valve Assembly",
+            "target": "Z1B-PVV-60VM9081-C1S"
+        },
+        {
+            "EMR_ID": "EMR-719",
+            "source": "60KSI Valve Assembly",
+            "target": "Z3 to Z1 Gas-60VM9075-O1S"
+        },
+        {
+            "EMR_ID": "EMR-729",
+            "source": "60KSI Valve Assembly",
+            "target": "Z2-MVLIV-60VM9071-O1S"
+        },
+        {
+            "EMR_ID": "EMR-990",
+            "source": "60KSI Valve Assembly",
+            "target": "Z3 to Z2 Gas-60VM9075-O1S"
+        },
+        {
+            "EMR_ID": "EMR-479",
+            "source": "Fuse",
+            "target": "Overcurrent Protection"
+        },
+        {
+            "EMR_ID": "EMR-458",
+            "source": "Safety Interlock",
+            "target": "Manifold Door Safety Interlock"
+        },
+        {
+            "EMR_ID": "EMR-700",
+            "source": "Safety Interlock",
+            "target": "Safety interlock system"
+        },
+        {
+            "EMR_ID": "EMR-457",
+            "source": "Ball Valve",
+            "target": "Hydac ESD ball valve in pit 5 HPU"
+        },
+        {
+            "EMR_ID": "EMR-997",
+            "source": "Ball Valve",
+            "target": "ESD Ball Valve"
+        },
+        {
+            "EMR_ID": "EMR-998",
+            "source": "Ball Valve",
+            "target": "Accumulator Ball Valves "
+        },
+        {
+            "EMR_ID": "EMR-249",
+            "source": "DAQ-CTRL System",
+            "target": "CAMDAQ -7"
+        },
+        {
+            "EMR_ID": "EMR-506",
+            "source": "DAQ-CTRL System",
+            "target": "DAQ System Enclosures"
+        },
+        {
+            "EMR_ID": "EMR-309",
+            "source": "DAQ-CTRL System",
+            "target": "PLC (PIT5)"
+        },
+        {
+            "EMR_ID": "EMR-362",
+            "source": "DAQ-CTRL System",
+            "target": "DAQ-CTRL System Software"
+        },
+        {
+            "EMR_ID": "EMR-972",
+            "source": "DAQ-CTRL System",
+            "target": "DAQ-CTRL System (cRIO)"
+        },
+        {
+            "EMR_ID": "EMR-464",
+            "source": "DAQ-CTRL System",
+            "target": "CAMDAQ-2"
+        },
+        {
+            "EMR_ID": "EMR-485",
+            "source": "DAQ-CTRL System",
+            "target": "Software "
+        },
+        {
+            "EMR_ID": "EMR-839",
+            "source": "DAQ-CTRL System",
+            "target": "DAQ System Programming (certs)"
+        },
+        {
+            "EMR_ID": "EMR-494",
+            "source": "DAQ-CTRL System",
+            "target": "DAQ System controller (cRIO) SN 1BDC855"
+        },
+        {
+            "EMR_ID": "EMR-505",
+            "source": "DAQ-CTRL System",
+            "target": "CAMDAQ monitor"
+        },
+        {
+            "EMR_ID": "EMR-513",
+            "source": "DAQ-CTRL System",
+            "target": "CAMDAQ 7"
+        },
+        {
+            "EMR_ID": "EMR-813",
+            "source": "DAQ-CTRL System",
+            "target": "CAMDAQ 6"
+        },
+        {
+            "EMR_ID": "EMR-939",
+            "source": "DAQ-CTRL System",
+            "target": "CamDaq-13"
+        },
+        {
+            "EMR_ID": "EMR-687",
+            "source": "Sump Pump",
+            "target": "Sump Pump (medium bay bunkers)"
+        },
+        {
+            "EMR_ID": "EMR-713",
+            "source": "Electric Actuated Flow Regulating Needle Valve",
+            "target": "VBV-2-60VM9081-FRC2"
+        },
+        {
+            "EMR_ID": "EMR-448",
+            "source": "Accumulators",
+            "target": "5K Accumulator Rack"
+        },
+        {
+            "EMR_ID": "EMR-875",
+            "source": "Accumulators",
+            "target": "Accumulators-(Silver Bottles-Grey Rack)"
+        },
+        {
+            "EMR_ID": "EMR-491",
+            "source": "Electropneumatic Controller",
+            "target": "Actuator interface"
+        },
+        {
+            "EMR_ID": "EMR-492",
+            "source": "Electropneumatic Controller",
+            "target": "Tescom ER5000"
+        },
+        {
+            "EMR_ID": "EMR-382",
+            "source": "DAQ-CTRL System I/O",
+            "target": "DAQ-CTRL System Serial Interface"
+        },
+        {
+            "EMR_ID": "EMR-907",
+            "source": "DAQ-CTRL System I/O",
+            "target": "DAQ-CTRL System Software"
+        },
+        {
+            "EMR_ID": "EMR-487",
+            "source": "DAQ-CTRL System I/O",
+            "target": "Electrical Service-220VAC"
+        },
+        {
+            "EMR_ID": "EMR-920",
+            "source": "DAQ-CTRL System I/O",
+            "target": "DAQ-CTRL System Analog Interface"
+        },
+        {
+            "EMR_ID": "EMR-209",
+            "source": "Pressure Transducer",
+            "target": "Z3-LQD-PT1"
+        },
+        {
+            "EMR_ID": "EMR-252",
+            "source": "Pressure Transducer",
+            "target": "Z1A-PT"
+        },
+        {
+            "EMR_ID": "EMR-258",
+            "source": "Pressure Transducer",
+            "target": "VENT-2-PT"
+        },
+        {
+            "EMR_ID": "EMR-261",
+            "source": "Pressure Transducer",
+            "target": "MSV-1-PT"
+        },
+        {
+            "EMR_ID": "EMR-263",
+            "source": "Pressure Transducer",
+            "target": "VENT-1-PT"
+        },
+        {
+            "EMR_ID": "EMR-636",
+            "source": "Pressure Transducer",
+            "target": "Z2H-PT"
+        },
+        {
+            "EMR_ID": "EMR-976",
+            "source": "Pressure Transducer",
+            "target": "Pressure Transducer"
+        },
+        {
+            "EMR_ID": "EMR-958",
+            "source": "Pressure Transducer",
+            "target": "Z1F-PT"
+        },
+        {
+            "EMR_ID": "EMR-974",
+            "source": "Pressure Transducer",
+            "target": "Z2G-PIV-PT"
+        },
+        {
+            "EMR_ID": "EMR-960",
+            "source": "Water Filter",
+            "target": "Water Filter Housing (Manifold Room)-6PAU1"
+        },
+        {
+            "EMR_ID": "EMR-521",
+            "source": "Water Filter",
+            "target": "Water Filter Cartridge (Manifold Room)-2P696"
+        },
+        {
+            "EMR_ID": "EMR-678",
+            "source": "Electrical Power Distribution",
+            "target": "Electrical Service-480VAC"
+        },
+        {
+            "EMR_ID": "EMR-988",
+            "source": "Electrical Power Distribution",
+            "target": "Electrical Outlets"
+        },
+        {
+            "EMR_ID": "EMR-517",
+            "source": "Electrical Power Distribution",
+            "target": "Electrical Service-220VAC"
+        },
+        {
+            "EMR_ID": "EMR-753",
+            "source": "Electrical Power Distribution",
+            "target": "Electrical Service-120VAC"
+        },
+        {
+            "EMR_ID": "EMR-814",
+            "source": "Electrical Power Distribution",
+            "target": "Electrical service"
+        },
+        {
+            "EMR_ID": "EMR-749",
+            "source": "Computer Monitor",
+            "target": "Monitors (DAQ Consoles)-VA32AQ"
+        },
+        {
+            "EMR_ID": "EMR-543",
+            "source": "Computer",
+            "target": "Computer (DAQ Consoles)-LPC-501"
+        },
+        {
+            "EMR_ID": "EMR-255",
+            "source": "Shop Air Supply Dump Valve",
+            "target": "Shop Air Supply"
+        },
+        {
+            "EMR_ID": "EMR-290",
+            "source": "Shop Air Supply",
+            "target": "Shop Air Compressor (VS 170)"
+        },
+        {
+            "EMR_ID": "EMR-386",
+            "source": "Operator Key Switch",
+            "target": "Control Console"
+        },
+        {
+            "EMR_ID": "EMR-265",
+            "source": "Control Console",
+            "target": "Computer Console UPS"
+        },
+        {
+            "EMR_ID": "EMR-755",
+            "source": "Control Console",
+            "target": "Console Computer"
+        },
+        {
+            "EMR_ID": "EMR-963",
+            "source": "Control Console",
+            "target": "PC Monitor"
+        },
+        {
+            "EMR_ID": "EMR-889",
+            "source": "Control Console",
+            "target": "PC"
+        },
+        {
+            "EMR_ID": "EMR-299",
+            "source": "Bunker Door",
+            "target": "HSE System"
+        },
+        {
+            "EMR_ID": "EMR-786",
+            "source": "Bunker Door",
+            "target": "Bunker Door"
+        },
+        {
+            "EMR_ID": "EMR-221",
+            "source": "HSE System",
+            "target": "Executive Override Key"
+        },
+        {
+            "EMR_ID": "EMR-257",
+            "source": "HSE System",
+            "target": "Manifold Room Door"
+        },
+        {
+            "EMR_ID": "EMR-734",
+            "source": "HSE System",
+            "target": "Door Lock"
+        },
+        {
+            "EMR_ID": "EMR-220",
+            "source": "Digital Interface",
+            "target": "System I/O"
+        },
+        {
+            "EMR_ID": "EMR-247",
+            "source": "System I/O",
+            "target": null
+        },
+        {
+            "EMR_ID": "EMR-572",
+            "source": "System I/O",
+            "target": "Network Port"
+        },
+        {
+            "EMR_ID": "EMR-219",
+            "source": "Latch Motor Power Switch",
+            "target": "Electrical Power"
+        },
+        {
+            "EMR_ID": "EMR-280",
+            "source": "Electrical Power",
+            "target": "UPS SMT2200 (AP9613)"
+        },
+        {
+            "EMR_ID": "EMR-287",
+            "source": "Electrical Power",
+            "target": "UPS (Tripp-Lite)"
+        },
+        {
+            "EMR_ID": "EMR-698",
+            "source": "Electrical Power",
+            "target": "Evans unit"
+        },
+        {
+            "EMR_ID": "EMR-635",
+            "source": "MSV-1",
+            "target": "Motorized Valve Assembly"
+        },
+        {
+            "EMR_ID": "EMR-829",
+            "source": "Motorized Valve Assembly",
+            "target": "MSV-2"
+        },
+        {
+            "EMR_ID": "EMR-227",
+            "source": "Z1F-PIV",
+            "target": "Pneumatic Valve Assembly"
+        },
+        {
+            "EMR_ID": "EMR-849",
+            "source": "Pneumatic Valve Assembly",
+            "target": "Z2H-PIV"
+        },
+        {
+            "EMR_ID": "EMR-945",
+            "source": "Pneumatic Valve Assembly",
+            "target": "Z1B-PIV"
+        },
+        {
+            "EMR_ID": "EMR-314",
+            "source": "Pneumatic Valve Assembly",
+            "target": "Z1E-BMIV"
+        },
+        {
+            "EMR_ID": "EMR-324",
+            "source": "Pneumatic Valve Assembly",
+            "target": "MISV"
+        },
+        {
+            "EMR_ID": "EMR-437",
+            "source": "Pneumatic Valve Assembly",
+            "target": "Z2G-PIV"
+        },
+        {
+            "EMR_ID": "EMR-504",
+            "source": "Pneumatic Valve Assembly",
+            "target": "Cell Wiring"
+        },
+        {
+            "EMR_ID": "EMR-894",
+            "source": "Pneumatic Valve Assembly",
+            "target": "Z1C-PIV"
+        },
+        {
+            "EMR_ID": "EMR-528",
+            "source": "Pneumatic Valve Assembly",
+            "target": "Z1E-PIV"
+        },
+        {
+            "EMR_ID": "EMR-564",
+            "source": "Pneumatic Valve Assembly",
+            "target": "Z2G-BMIV"
+        },
+        {
+            "EMR_ID": "EMR-857",
+            "source": "Pneumatic Valve Assembly",
+            "target": "Z1-MSLIV"
+        },
+        {
+            "EMR_ID": "EMR-626",
+            "source": "Pneumatic Valve Assembly",
+            "target": "Z2G-PVV"
+        },
+        {
+            "EMR_ID": "EMR-638",
+            "source": "Pneumatic Valve Assembly",
+            "target": "Z1D-BMIV"
+        },
+        {
+            "EMR_ID": "EMR-941",
+            "source": "Pneumatic Valve Assembly",
+            "target": "VENT-1"
+        },
+        {
+            "EMR_ID": "EMR-709",
+            "source": "Pneumatic Valve Assembly",
+            "target": "Z1A-PIV"
+        },
+        {
+            "EMR_ID": "EMR-790",
+            "source": "Pneumatic Valve Assembly",
+            "target": "Z1D-PVV"
+        },
+        {
+            "EMR_ID": "EMR-792",
+            "source": "Pneumatic Valve Assembly",
+            "target": "Z2H-PVV"
+        },
+        {
+            "EMR_ID": "EMR-847",
+            "source": "Pneumatic Valve Assembly",
+            "target": "Z1A-PSV"
+        },
+        {
+            "EMR_ID": "EMR-880",
+            "source": "Pneumatic Valve Assembly",
+            "target": "HPP Vent Valve"
+        },
+        {
+            "EMR_ID": "EMR-961",
+            "source": "Pneumatic Valve Assembly",
+            "target": "Z1F-PVV"
+        },
+        {
+            "EMR_ID": "EMR-991",
+            "source": "Pneumatic Valve Assembly",
+            "target": "Gas Booster High Valve"
+        },
+        {
+            "EMR_ID": "EMR-975",
+            "source": "Camera (Bunker)",
+            "target": "Camera System"
+        },
+        {
+            "EMR_ID": "EMR-771",
+            "source": "Camera System",
+            "target": "Camera (Drilling Pit)"
+        },
+        {
+            "EMR_ID": "EMR-764",
+            "source": "Camera System",
+            "target": "Camera Servers (High Bay Control Room)"
+        },
+        {
+            "EMR_ID": "EMR-890",
+            "source": "Camera System",
+            "target": "Portable PTZ Camera "
+        },
+        {
+            "EMR_ID": "EMR-854",
+            "source": "Camera System",
+            "target": "Camera (BT)"
+        },
+        {
+            "EMR_ID": "EMR-248",
+            "source": "DAQ-CTRL System Software",
+            "target": "Data Acquisition "
+        },
+        {
+            "EMR_ID": "EMR-380",
+            "source": "CSZ Thermal Chamber",
+            "target": "Thermal Chamber"
+        },
+        {
+            "EMR_ID": "EMR-264",
+            "source": "W.C. 3035",
+            "target": "Cranes"
+        },
+        {
+            "EMR_ID": "EMR-292",
+            "source": "Cranes",
+            "target": "WC-3042 (Crane)"
+        },
+        {
+            "EMR_ID": "EMR-405",
+            "source": "Cranes",
+            "target": "W.C. 3037 (Crane)"
+        },
+        {
+            "EMR_ID": "EMR-459",
+            "source": "Cranes",
+            "target": "WC-3034 crane"
+        },
+        {
+            "EMR_ID": "EMR-466",
+            "source": "Cranes",
+            "target": "WC-3028 crane"
+        },
+        {
+            "EMR_ID": "EMR-625",
+            "source": "Cranes",
+            "target": "Jib Crane"
+        },
+        {
+            "EMR_ID": "EMR-518",
+            "source": "Cranes",
+            "target": "Crane WC3029"
+        },
+        {
+            "EMR_ID": "EMR-667",
+            "source": "Cranes",
+            "target": "Crane 3031"
+        },
+        {
+            "EMR_ID": "EMR-566",
+            "source": "Cranes",
+            "target": "Jib Crane at B21"
+        },
+        {
+            "EMR_ID": "EMR-627",
+            "source": "Cranes",
+            "target": "Crane WC3030"
+        },
+        {
+            "EMR_ID": "EMR-867",
+            "source": "Cranes",
+            "target": "WC-3044"
+        },
+        {
+            "EMR_ID": "EMR-335",
+            "source": "Control Pod (PIT5)",
+            "target": "Manifold "
+        },
+        {
+            "EMR_ID": "EMR-872",
+            "source": "Control Pod (PIT5)",
+            "target": "High Pressure Manifold Assembly"
+        },
+        {
+            "EMR_ID": "EMR-878",
+            "source": "Shop Air Compressor (VS 170)",
+            "target": "Air Compressor"
+        },
+        {
+            "EMR_ID": "EMR-273",
+            "source": "Air Supply Pressure Switch",
+            "target": "Digital Pressure Switch"
+        },
+        {
+            "EMR_ID": "EMR-274",
+            "source": "HYTORC Wrench",
+            "target": "Torque Tools"
+        },
+        {
+            "EMR_ID": "EMR-450",
+            "source": "Torque Tools",
+            "target": "Norbar Torque Tool"
+        },
+        {
+            "EMR_ID": "EMR-275",
+            "source": "UPS SMT2200 (AP9613)",
+            "target": "UPS"
+        },
+        {
+            "EMR_ID": "EMR-1000",
+            "source": "Nitrogen Supply System",
+            "target": "Nitrogen Supply System"
+        },
+        {
+            "EMR_ID": "EMR-288",
+            "source": "Test Bunker (structure)",
+            "target": "Test Bunker (structure)"
+        },
+        {
+            "EMR_ID": "EMR-536",
+            "source": "Test Bunker (structure)",
+            "target": "Water supply line"
+        },
+        {
+            "EMR_ID": "EMR-326",
+            "source": "O2 Sensor (PIT4)",
+            "target": "Oxygen Monitoring"
+        },
+        {
+            "EMR_ID": "EMR-438",
+            "source": "Oxygen Monitoring",
+            "target": "O2 Sensor (Test Pit-2)"
+        },
+        {
+            "EMR_ID": "EMR-579",
+            "source": "Oxygen Monitoring",
+            "target": "Oxygen Alarm (Audible)"
+        },
+        {
+            "EMR_ID": "EMR-955",
+            "source": "Oxygen Monitoring",
+            "target": "O2 Sensor (Drilling Pits)"
+        },
+        {
+            "EMR_ID": "EMR-906",
+            "source": "Oxygen Monitoring",
+            "target": "Oxygen Alarm (Beacon)"
+        },
+        {
+            "EMR_ID": "EMR-304",
+            "source": "Control Pod (PIT4)",
+            "target": "Manifold Valve"
+        },
+        {
+            "EMR_ID": "EMR-973",
+            "source": "Control Pod (PIT4)",
+            "target": "High Pressure Manifold Assembly"
+        },
+        {
+            "EMR_ID": "EMR-985",
+            "source": "Control Pod (PIT3)",
+            "target": "High Pressure Manifold Assembly"
+        },
+        {
+            "EMR_ID": "EMR-996",
+            "source": "HPU (Drilling Pits)",
+            "target": "Hydraulic Power Unit"
+        },
+        {
+            "EMR_ID": "EMR-826",
+            "source": "Hydraulic Power Unit",
+            "target": "Pit 5 HPU"
+        },
+        {
+            "EMR_ID": "EMR-772",
+            "source": "Hydraulic Power Unit",
+            "target": "Pit 1 Wellbore HPU"
+        },
+        {
+            "EMR_ID": "EMR-334",
+            "source": "Evans Unit (C12-14_16 )",
+            "target": "Water Reclamation Unit"
+        },
+        {
+            "EMR_ID": "EMR-633",
+            "source": "Evans Unit (C12-14_16 )",
+            "target": "Water Reclaimation"
+        },
+        {
+            "EMR_ID": "EMR-345",
+            "source": "Cover (PIT 2)",
+            "target": "PIT Cover"
+        },
+        {
+            "EMR_ID": "EMR-377",
+            "source": "Pressure Beacon",
+            "target": "Annunciator"
+        },
+        {
+            "EMR_ID": "EMR-402",
+            "source": "Evans Unit (A24-23.25)",
+            "target": "Water Reclaimation"
+        },
+        {
+            "EMR_ID": "EMR-474",
+            "source": "Water Reclaimation",
+            "target": "Evans unit"
+        },
+        {
+            "EMR_ID": "EMR-489",
+            "source": "Water Reclaimation",
+            "target": "Water return line"
+        },
+        {
+            "EMR_ID": "EMR-502",
+            "source": "Water Reclaimation",
+            "target": "Evans unit at B23"
+        },
+        {
+            "EMR_ID": "EMR-431",
+            "source": "1 MM PTM",
+            "target": "Pull Test Machine"
+        },
+        {
+            "EMR_ID": "EMR-454",
+            "source": "Pull Test Machine",
+            "target": "2.0 MM PTM"
+        },
+        {
+            "EMR_ID": "EMR-451",
+            "source": "EMR_database.py",
+            "target": "Software (Operations)"
+        },
+        {
+            "EMR_ID": "EMR-452",
+            "source": "HYDRO 45000",
+            "target": "None"
+        },
+        {
+            "EMR_ID": "EMR-569",
+            "source": "None",
+            "target": "Water supply line"
+        },
+        {
+            "EMR_ID": "EMR-846",
+            "source": "None",
+            "target": "Evans unit"
+        },
+        {
+            "EMR_ID": "EMR-549",
+            "source": "None",
+            "target": "Air hose reel"
+        },
+        {
+            "EMR_ID": "EMR-593",
+            "source": "None",
+            "target": "Duct Booster Fan"
+        },
+        {
+            "EMR_ID": "EMR-758",
+            "source": "None",
+            "target": "Cell Door"
+        },
+        {
+            "EMR_ID": "EMR-663",
+            "source": "None",
+            "target": "None specified"
+        },
+        {
+            "EMR_ID": "EMR-669",
+            "source": "None",
+            "target": "High pressure hose"
+        },
+        {
+            "EMR_ID": "EMR-679",
+            "source": "None",
+            "target": "N/A"
+        },
+        {
+            "EMR_ID": "EMR-702",
+            "source": "None",
+            "target": "Jib Crane"
+        },
+        {
+            "EMR_ID": "EMR-715",
+            "source": "None",
+            "target": "Gas Booster G-8"
+        },
+        {
+            "EMR_ID": "EMR-735",
+            "source": "None",
+            "target": "CAT Pump (Firelab)"
+        },
+        {
+            "EMR_ID": "EMR-757",
+            "source": "None",
+            "target": "Fire Lab Doors"
+        },
+        {
+            "EMR_ID": "EMR-761",
+            "source": "None",
+            "target": "CAMDAQ-12"
+        },
+        {
+            "EMR_ID": "EMR-887",
+            "source": "None",
+            "target": "None"
+        },
+        {
+            "EMR_ID": "EMR-805",
+            "source": "None",
+            "target": "Air Conditioner"
+        },
+        {
+            "EMR_ID": "EMR-806",
+            "source": "None",
+            "target": "Pit 3 POD"
+        },
+        {
+            "EMR_ID": "EMR-896",
+            "source": "None",
+            "target": "Pit (1-5) Control Pods"
+        },
+        {
+            "EMR_ID": "EMR-856",
+            "source": "None",
+            "target": "Tescom 50-2065D24A270"
+        },
+        {
+            "EMR_ID": "EMR-898",
+            "source": "None",
+            "target": "Pit # 3 door"
+        },
+        {
+            "EMR_ID": "EMR-899",
+            "source": "None",
+            "target": "Pit # 6 drive"
+        },
+        {
+            "EMR_ID": "EMR-902",
+            "source": "None",
+            "target": "PIT Control Pod-Isolation Ball Valves"
+        },
+        {
+            "EMR_ID": "EMR-932",
+            "source": "None",
+            "target": "Accumulator 20K"
+        },
+        {
+            "EMR_ID": "EMR-934",
+            "source": "None",
+            "target": "Accumulator 15K"
+        },
+        {
+            "EMR_ID": "EMR-937",
+            "source": "None",
+            "target": "Diaphram pump"
+        },
+        {
+            "EMR_ID": "EMR-940",
+            "source": "None",
+            "target": "Pit 1 ( cover Gearbox/Motor assy)"
+        },
+        {
+            "EMR_ID": "EMR-950",
+            "source": "None",
+            "target": "Pressure Relief Vvalce"
+        },
+        {
+            "EMR_ID": "EMR-951",
+            "source": "None",
+            "target": "Function B Choke"
+        },
+        {
+            "EMR_ID": "EMR-993",
+            "source": "None",
+            "target": "Optical Turn Counter"
+        },
+        {
+            "EMR_ID": "EMR-1001",
+            "source": "None",
+            "target": "HCTC Systems EMR Program"
+        },
+        {
+            "EMR_ID": "EMR-570",
+            "source": "Water supply line",
+            "target": "Water Supply"
+        },
+        {
+            "EMR_ID": "EMR-473",
+            "source": "Sink faucet",
+            "target": "TBD"
+        },
+        {
+            "EMR_ID": "EMR-710",
+            "source": "TBD",
+            "target": ""
+        },
+        {
+            "EMR_ID": "EMR-824",
+            "source": "TBD",
+            "target": "Burner #2"
+        },
+        {
+            "EMR_ID": "EMR-484",
+            "source": "Sink",
+            "target": "Waste Water"
+        },
+        {
+            "EMR_ID": "EMR-989",
+            "source": "CMM",
+            "target": "Inspection"
+        },
+        {
+            "EMR_ID": "EMR-516",
+            "source": "Manifold Needle Valve-Autoclave",
+            "target": "Needle Valve"
+        },
+        {
+            "EMR_ID": "EMR-575",
+            "source": "Cell console (mechanical)",
+            "target": "Enclosure"
+        },
+        {
+            "EMR_ID": "EMR-676",
+            "source": "Enclosure",
+            "target": "Cover (PIT 4)"
+        },
+        {
+            "EMR_ID": "EMR-938",
+            "source": "Enclosure",
+            "target": "Cover (PIT 3)"
+        },
+        {
+            "EMR_ID": "EMR-576",
+            "source": "Sensor wiring",
+            "target": "Wiring "
+        },
+        {
+            "EMR_ID": "EMR-731",
+            "source": "Wiring ",
+            "target": "Manifold wiring (general)"
+        },
+        {
+            "EMR_ID": "EMR-877",
+            "source": "25 T EnerPac Press",
+            "target": "Hydraulic Press"
+        },
+        {
+            "EMR_ID": "EMR-591",
+            "source": "Firelab Water Reservoir",
+            "target": "Water Reservior"
+        },
+        {
+            "EMR_ID": "EMR-720",
+            "source": "DAQ Programming (general)",
+            "target": "DAQ programming"
+        },
+        {
+            "EMR_ID": "EMR-891",
+            "source": "Thermocouple",
+            "target": "Temperature Sensor"
+        },
+        {
+            "EMR_ID": "EMR-668",
+            "source": "Facility Space Heater",
+            "target": "Facility Heating"
+        },
+        {
+            "EMR_ID": "EMR-929",
+            "source": "Pressure Sensor Cable",
+            "target": "Sensor Wiring"
+        },
+        {
+            "EMR_ID": "EMR-798",
+            "source": "Sensor Wiring",
+            "target": "Fire Lab Flame Sensor"
+        },
+        {
+            "EMR_ID": "EMR-684",
+            "source": "White accumulator",
+            "target": "Hydraulic component"
+        },
+        {
+            "EMR_ID": "EMR-740",
+            "source": "Hydraulic component",
+            "target": "Selector Valve"
+        },
+        {
+            "EMR_ID": "EMR-727",
+            "source": "Oil heater unit",
+            "target": "Oil Heater"
+        },
+        {
+            "EMR_ID": "EMR-756",
+            "source": "Gas Burner",
+            "target": "Gas Burner"
+        },
+        {
+            "EMR_ID": "EMR-788",
+            "source": "Gas Burner",
+            "target": "Gas Burner (Flame #1)"
+        },
+        {
+            "EMR_ID": "EMR-768",
+            "source": "Z3-SV-P4",
+            "target": "Pump Air Supply Solenoid"
+        },
+        {
+            "EMR_ID": "EMR-827",
+            "source": "High Pressure Manifold Assembly",
+            "target": "Control Pod (PIT6)"
+        },
+        {
+            "EMR_ID": "EMR-842",
+            "source": "Welding Positioner ",
+            "target": "Welding Equipment"
+        },
+        {
+            "EMR_ID": "EMR-859",
+            "source": "Large Metal Cutting Saw  ",
+            "target": "Shop Tools"
+        },
+        {
+            "EMR_ID": "EMR-952",
+            "source": "Shop Tools",
+            "target": "Floor Scrubber"
+        },
+        {
+            "EMR_ID": "EMR-983",
+            "source": "Shop Tools",
+            "target": "Ladder #2"
+        },
+        {
+            "EMR_ID": "EMR-866",
+            "source": "PC (DAQ Consoles)",
+            "target": "PC"
+        },
+        {
+            "EMR_ID": "EMR-901",
+            "source": "Function A choke",
+            "target": "Choke"
+        },
+        {
+            "EMR_ID": "EMR-914",
+            "source": "Pit-1",
+            "target": "Testcom"
+        },
+        {
+            "EMR_ID": "EMR-912",
+            "source": "Testcom",
+            "target": "Pit-2"
+        },
+        {
+            "EMR_ID": "EMR-913",
+            "source": "Testcom",
+            "target": "Pit-3"
+        },
+        {
+            "EMR_ID": "EMR-915",
+            "source": "Testcom",
+            "target": "NonePit-5"
+        },
+        {
+            "EMR_ID": "EMR-916",
+            "source": "Testcom",
+            "target": "Pit-4"
+        },
+        {
+            "EMR_ID": "EMR-917",
+            "source": "Testcom",
+            "target": "Pit-5"
+        },
+        {
+            "EMR_ID": "EMR-956",
+            "source": "Overhead Light",
+            "target": "Facility Lighting"
+        },
+        {
+            "EMR_ID": "EMR-964",
+            "source": "Electrical service- 480VAC",
+            "target": "480vac"
         }
     ]
 }

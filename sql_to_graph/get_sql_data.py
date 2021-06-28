@@ -11,7 +11,7 @@ import get_nodes_edges as gne
 # query database
 
 server=fac.emr_server      # get the database server (path)
-the_sql_query='Select * from csp_table_1'   # sql statement
+the_sql_query='Select * from emr_data_3'   # sql statement
 df=sdi.SqliteDB(server).query_the_database(the_sql_command=the_sql_query)   # sql data as a dataframe 
 
 # df=df.head(900)
@@ -32,8 +32,11 @@ print(df.head())
 
 
 
-graph_filename='csp_table.json'
+graph_filename='emrData3.json'
+# graph_filename='hctc_bom.json'
 # gne.get_node_data(df,'HCTC_ID',graph_filename=graph_filename)
-# gne.get_edge_data(df,'HCTC_ID','MODEL_NUMBER',graph_filename=graph_filename)
-gne.get_edge_data(df,'HCTC_ID','EQUIPMENT_CLASSIFICATION',graph_filename=graph_filename)
+gne.get_edge_data(df,'HCTC_ID','MODEL_NUMBER',graph_filename=graph_filename)
+# gne.get_edge_data(df,'HCTC_ID','EQUIPMENT_CLASSIFICATION',graph_filename=graph_filename)
+# gne.get_edge_data(df,'MODEL_NUMBER','PARENT_SYSTEM',graph_filename=graph_filename)
+# gne.get_edge_data(df,'HCTC_ID','TECHNOLOGY',graph_filename=graph_filename)
 

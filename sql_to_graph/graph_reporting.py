@@ -17,7 +17,7 @@ import support_pkg.file_access as fac
 graph_file_location=fac.graph_file_location
 graph_filename='press_sensors.json'
 graph_filename='press_ctrl_sensors.json'
-graph_filename='csp_table.json'
+graph_filename='emrData3.json'
 
 # graph_type='ug'
 graph_type='dig'
@@ -49,7 +49,7 @@ def analysis_of_graph(G):
     except Exception as err:
         print(err)
 
-    node=['4 to 20 mA','Inactive','Expired','Active','CELL20']
+    node=['HYP Chamber Lid Seals']
     # print(list(G.predecessors(node)))
     # print(f'Count of {node}: {len(list(G.predecessors(node)))}')
 
@@ -59,12 +59,19 @@ def analysis_of_graph(G):
     # print(f'Clustering:\n{nx.clustering(G)}\n')
     # print(f'Clustering Histogram:\n{nx.degree_histogram(G)}\n')
 
+    a='HYP Chamber Lid Seals'
+    print(f'{a}:\n{list(G.successors(a))}')
+    
+    print([f'Count of {x}: {len(list(G.successors(x)))}' for x in node])
+
     
 # %%
 
 # %%
 
 analysis_of_graph(G)
+
+node_neigbors(G,'Pneumatic Valve Assembly (60KSI Needle Valve)')
 
 
 

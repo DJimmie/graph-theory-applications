@@ -22,12 +22,23 @@ class Graphs():
             try:
                 # check if file exist
                 graph_file=f'{fac.graph_file_location}{graph_filename}'
+                print(f'the graph file is: {graph_file}')
                 with open(graph_file, "r") as read_file:
                     data_dict = json.load(read_file)
+                
+                data_dict['directed']=True if graph_type == 'dig' else False
+
                 self.G=nx.node_link_graph(data_dict, directed=False, multigraph=True, attrs=None)
+                # print(f'G:{type(G)}')
+                # self.G=nx.to_directed(G) if graph_type == 'dig' else G
+                # self.G=nx.to_directed(G) if graph_type == 'dig' else nx.node_link_graph(data_dict, directed=False, multigraph=True, attrs=None)
+                # print(f'self.G:{type(self.G)}')
                 GraphPlot(self.G)
-            except:
+
+                print(f'Is Graph Frozen?:{nx.is_frozen(self.G)}')
+            except Exception as err:
                 # make an empty dictionary to make an empty Graph
+                print(err)
                 print('Creating empty graph')
                 graph_file=f'{fac.graph_file_location}{graph_filename}'
                 self.G=nx.DiGraph() if graph_type == 'dig' else nx.Graph()
@@ -36,6 +47,8 @@ class Graphs():
                     json.dump(data_dict, f, indent=4)
                 self.G=nx.node_link_graph(data_dict, directed=False, multigraph=True, attrs=None)
                 GraphPlot(self.G)
+
+                
 
         self.graph_filename=graph_filename
             
@@ -52,7 +65,7 @@ class Graphs():
     def edge(self,data):
         self.data=data
         self.G.add_edges_from(self.data)
-        logging.info(f'node{self.G.nodes()}')
+        logging.info(f'edge{self.G.edges()}')
         write_graph(self.G,self.graph_filename)
 
         GraphPlot(self.G)
@@ -64,19 +77,16 @@ class Graphs():
         logging.info(f'degree {nx.degree(self.G,"20 KSI")}')
 
 
-
     def subgraph(self):
         view=nx.subgraph_view(self.G,filter_node='20 KSI')
         GraphPlot(view)
 
 
-        
-
 class GraphPlot():
-    """Undirected graph"""
+    """Plot the graph"""
     def __init__(self,G):
         self.G=G
-        self.edge_attr=nx.get_edge_attributes(self.G,"Lab_ID")
+        self.edge_attr=nx.get_edge_attributes(self.G,"MN")
         self.pos=nx.spring_layout(self.G)
         self.draw_the_graph()
     
