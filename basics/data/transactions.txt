@@ -83,6 +83,9 @@
         },
         {
             "id": "salary"
+        },
+        {
+            "id": ""
         }
     ],
     "links": [
@@ -307,6 +310,12 @@
             "amount": "",
             "source": "salary",
             "target": "category"
+        },
+        {
+            "attr": "",
+            "amount": "",
+            "source": "",
+            "target": ""
         }
     ]
 }

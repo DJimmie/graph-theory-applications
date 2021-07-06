@@ -10,7 +10,7 @@ import undirected_graphs as ug
 
 # %%
 graph_file_location='C:/Users/dowdj/OneDrive/Documents/GitHub/graph-theory-applications/basics/data/'
-graph_filename='transactions.txt'
+graph_filename='instru'
 
 # graph_type='ug'
 graph_type='dig'
