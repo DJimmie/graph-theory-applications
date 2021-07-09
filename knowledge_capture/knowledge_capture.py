@@ -5,16 +5,15 @@ import networkx as nx
 # %matplotlib inline
 import matplotlib.pyplot as plt
 import datetime as dt
-from IPython.display import Image
-from IPython.core.display import HTML
+
 import sqlite3
 from networkx.algorithms import community
 
 
-from IPython.display import clear_output
-# from graphviz import Digraph
-# import graphviz
-# import pydot
+
+from graphviz import Digraph
+import graphviz
+import pydot
 
 import os
 import sys
@@ -29,7 +28,7 @@ except:
 
 from tkinter import filedialog    
 from tkinter import messagebox    
-# from tabulate import tabulate    
+from tabulate import tabulate    
 # %%
 
 global sqlite_server
@@ -154,7 +153,7 @@ class Graph_Data():
         path=self.filename
         df1=pd.read_csv(path)
         print(tabulate(df1, headers='keys', tablefmt='psql')) # 9-21-2019:temporary (optional) display. Replace with GUI display
-        display(HTML(df1.to_html())) # 9-21-2019:temporary (optional) display. Replace with GUI display
+        # display(HTML(df1.to_html())) # 9-21-2019:temporary (optional) display. Replace with GUI display
     
     @staticmethod
     def get_graph_data_plot():
@@ -163,7 +162,7 @@ class Graph_Data():
         print(f'the class is:{The_Frame.class_var}')
 #         q=Graph_Data.df
         print(f'type:{type(q)}')
-        display(HTML(q.to_html()))
+        # display(HTML(q.to_html()))
         create_edge_list(q)
 #         create_edge_list(Graph_Data.df)
     
@@ -423,7 +422,7 @@ def get_data(type_file='sql',filename=None):
     
     if (type_file=='csv'):
         df=pd.read_csv(filename)
-        display(HTML(df.to_html()))
+        # display(HTML(df.to_html()))
 
         answer=input('View the graph?')
         if (answer=='y'):
@@ -441,7 +440,7 @@ def get_data(type_file='sql',filename=None):
         df=pd.read_sql_query(sql=the_sql_command,con=conn,index_col=None)
         print(tabulate(df, headers='keys', tablefmt='psql'))
         
-        display(HTML(df.to_html()))
+        # display(HTML(df.to_html()))
     
     Graph_Data.df=df
 
