@@ -1,0 +1,57 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "id": "person"
+        },
+        {
+            "id": "hot plate"
+        },
+        {
+            "id": "hot"
+        },
+        {
+            "id": "room temperature"
+        },
+        {
+            "id": "pain"
+        },
+        {
+            "id": "no pain"
+        }
+    ],
+    "links": [
+        {
+            "attr": "touches",
+            "amount": "",
+            "source": "person",
+            "target": "hot plate"
+        },
+        {
+            "attr": "has temperature",
+            "amount": "",
+            "source": "hot plate",
+            "target": "hot"
+        },
+        {
+            "attr": "has temperature",
+            "amount": "",
+            "source": "hot plate",
+            "target": "room temperature"
+        },
+        {
+            "attr": "results in",
+            "amount": "",
+            "source": "hot",
+            "target": "pain"
+        },
+        {
+            "attr": "results in",
+            "amount": "",
+            "source": "room temperature",
+            "target": "no pain"
+        }
+    ]
+}

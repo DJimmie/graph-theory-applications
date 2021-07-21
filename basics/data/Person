@@ -1,0 +1,96 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "id": "PERSON"
+        },
+        {
+            "id": "City"
+        },
+        {
+            "id": "State"
+        },
+        {
+            "id": "Domilcile"
+        },
+        {
+            "id": "Vehicle"
+        },
+        {
+            "id": "Apartment"
+        },
+        {
+            "id": "Home"
+        },
+        {
+            "id": "SUV"
+        },
+        {
+            "id": "Sedan"
+        },
+        {
+            "id": "Year"
+        },
+        {
+            "id": "Month"
+        }
+    ],
+    "links": [
+        {
+            "attr": "Born In",
+            "amount": "",
+            "source": "PERSON",
+            "target": "City"
+        },
+        {
+            "attr": "Has",
+            "amount": "",
+            "source": "PERSON",
+            "target": "Domilcile"
+        },
+        {
+            "attr": "Owns",
+            "amount": "",
+            "source": "PERSON",
+            "target": "Vehicle"
+        },
+        {
+            "attr": "Birth Year",
+            "amount": "",
+            "source": "PERSON",
+            "target": "Year"
+        },
+        {
+            "attr": "Birth Month",
+            "amount": "",
+            "source": "PERSON",
+            "target": "Month"
+        },
+        {
+            "attr": "Is In",
+            "amount": "",
+            "source": "City",
+            "target": "State"
+        },
+        {
+            "attr": "Is In",
+            "amount": "",
+            "source": "Domilcile",
+            "target": "City"
+        },
+        {
+            "attr": "Is Type",
+            "amount": "",
+            "source": "Apartment",
+            "target": "Domilcile"
+        },
+        {
+            "attr": "Is Type",
+            "amount": "",
+            "source": "Home",
+            "target": "Domilcile"
+        }
+    ]
+}

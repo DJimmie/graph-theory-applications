@@ -1,0 +1,144 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "id": "Person"
+        },
+        {
+            "id": "Dog"
+        },
+        {
+            "id": "Home"
+        },
+        {
+            "id": "Car"
+        },
+        {
+            "id": "Mortgage"
+        },
+        {
+            "id": "College"
+        },
+        {
+            "id": "Country"
+        },
+        {
+            "id": "Animal"
+        },
+        {
+            "id": "State"
+        },
+        {
+            "id": "City"
+        },
+        {
+            "id": "Spouse"
+        }
+    ],
+    "links": [
+        {
+            "attr": "owns",
+            "amount": "",
+            "source": "Person",
+            "target": "Dog"
+        },
+        {
+            "attr": "owns",
+            "amount": "",
+            "source": "Person",
+            "target": "Home"
+        },
+        {
+            "attr": "owns",
+            "amount": "",
+            "source": "Person",
+            "target": "Car"
+        },
+        {
+            "attr": "attended",
+            "amount": "",
+            "source": "Person",
+            "target": "College"
+        },
+        {
+            "attr": "Born In",
+            "amount": "",
+            "source": "Person",
+            "target": "Country"
+        },
+        {
+            "attr": "has",
+            "amount": "",
+            "source": "Person",
+            "target": "Spouse"
+        },
+        {
+            "attr": "Born In",
+            "amount": "",
+            "source": "Person",
+            "target": "State"
+        },
+        {
+            "attr": "Is A",
+            "amount": "",
+            "source": "Dog",
+            "target": "Animal"
+        },
+        {
+            "attr": "has",
+            "amount": "",
+            "source": "Home",
+            "target": "Mortgage"
+        },
+        {
+            "attr": "Is In",
+            "amount": "",
+            "source": "State",
+            "target": "Country"
+        },
+        {
+            "attr": "Is In",
+            "amount": "",
+            "source": "City",
+            "target": "State"
+        },
+        {
+            "attr": "owns",
+            "amount": "",
+            "source": "Spouse",
+            "target": "Car"
+        },
+        {
+            "attr": "owns",
+            "amount": "",
+            "source": "Spouse",
+            "target": "Home"
+        },
+        {
+            "attr": "attended",
+            "amount": "",
+            "source": "Spouse",
+            "target": "College"
+        },
+        {
+            "attr": "Born In",
+            "amount": "",
+            "source": "Spouse",
+            "target": "Country"
+        },
+        {
+            "attr": "owns",
+            "amount": "",
+            "source": "Spouse",
+            "target": "Dog"
+        },
+        {
+            "attr": "Born In",
+            "amount": "",
+            "source": "Spouse",
+            "target": "State"
+        }
+    ]
+}

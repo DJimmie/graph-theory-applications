@@ -1,0 +1,15 @@
+// The Round Table
+digraph {
+	graph [landscape=False rankdir=TB size="20,16" splines=polyline]
+	node [color=white style=filled]
+	node [shape=plaintext]
+	PERSON -> City [label="Born In"]
+	PERSON -> Domilcile [label=Has]
+	PERSON -> Vehicle [label=Owns]
+	PERSON -> Year [label="Birth Year"]
+	PERSON -> Month [label="Birth Month"]
+	City -> State [label="Is In"]
+	Domilcile -> City [label="Is In"]
+	Apartment -> Domilcile [label="Is Type"]
+	Home -> Domilcile [label="Is Type"]
+}

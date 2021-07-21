@@ -4,6 +4,9 @@ import logging
 
 from networkx.classes.function import neighbors
 
+from graphviz import Digraph
+import graphviz
+
 logging.basicConfig(format='%(asctime)s - %(message)s',level=logging.INFO)
 logging.info('start log')
 
@@ -93,6 +96,6 @@ class GraphPlot():
         plt.clf()
         nx.draw(self.G,self.pos,with_labels=True,node_color='white',edge_color='b')
         nx.draw_networkx_edge_labels(self.G, self.pos, edge_labels = self.edge_attr)
-        plt.show()
+        plt.show(block=False)
 
 

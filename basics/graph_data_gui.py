@@ -10,6 +10,45 @@ import networkx as nx
 import json
 import sys
 
+from graphviz import Digraph
+import graphviz
+
+
+def the_dot_display(G,G_edge_list,data=None):
+    dot = Digraph(
+        comment='The Round Table',
+        engine='circo',
+        node_attr={'color': 'white', 'style': 'filled'},
+        graph_attr={'rankdir':'TB',
+              'landscape':'False',
+              'size':'20,16',
+              'splines':'polyline'}
+        )
+    dot.attr('node', shape='plaintext')
+    for i in G_edge_list:
+        edge_label=G[i[0]][i[1]]['attr']
+        dot.edge(i[0],i[1],edge_label)
+
+    if data != None:
+        dot.edge(data[0],data[1],label=data[2]['attr'])
+
+    dot.render('test-output/round-table.gv', view=True)
+    print(dot.source) 
+
+def write_graph(G,graph_filename):
+
+    graph_filename=graph_filename
+    
+    graph_file_location='C:/Users/dowdj/OneDrive/Documents/GitHub/graph-theory-applications/basics/data/'
+    data_dict=nx.node_link_data(G)
+    print(data_dict)
+    graph_file=f'{graph_file_location}{graph_filename}'
+    with open(graph_file,'w') as f: 
+        json.dump(data_dict, f, indent=4) 
+
+
+
+
 pop_up=[[sg.Text("File Name")],
           [sg.Input(key='-INPUT-0')],
           [sg.Button('Ok'), sg.Button('Quit')]]
@@ -66,6 +105,7 @@ try:
         
     G=nx.node_link_graph(data_dict, directed=directed, multigraph=True, attrs=None)
     ug.GraphPlot(G)
+    the_dot_display(G,list(G.edges))
 except FileNotFoundError:
     # raise
     # make an empty dictionary to make an empty Graph
@@ -76,12 +116,14 @@ except FileNotFoundError:
     data_dict={}
     with open(graph_file,'w') as f: 
         json.dump(data_dict, f, indent=4)
-    # G=nx.node_link_graph(data_dict, directed=False, multigraph=True, attrs=None)
-    ug.GraphPlot(G)
+    
+    # ug.GraphPlot(G)
 
+    
 
-
+    
 edge_list=[]
+
 # Display and interact with the Window using an Event Loop
 while True:
     event, values = window.read()
@@ -105,20 +147,18 @@ while True:
     G.add_edges_from(edge_list)
     ug.GraphPlot(G)
 
+    print(list(G.edges))
+
+    the_dot_display(G,list(G.edges),data=data)
+    
+
  
 # Finish up by removing from the screen
 window.close()
 
-def write_graph(G,graph_filename):
 
-    graph_filename=graph_filename
-    
-    graph_file_location='C:/Users/dowdj/OneDrive/Documents/GitHub/graph-theory-applications/basics/data/'
-    data_dict=nx.node_link_data(G)
-    print(data_dict)
-    graph_file=f'{graph_file_location}{graph_filename}'
-    with open(graph_file,'w') as f: 
-        json.dump(data_dict, f, indent=4) 
+
+
 
 # %%
 
@@ -126,16 +166,6 @@ def write_graph(G,graph_filename):
 
 write_graph(G,graph_filename=graph_filename)
 
-
-
-# traverse all edges of a graph is via the neighbors
-# a='attr'
-# for n, nbrsdict in G.G.adjacency():
-#     for nbr, eattr in nbrsdict.items():
-#         if a in eattr:
-#         # Do something useful with the edges
-#             print(eattr)
-        
 
 
 
