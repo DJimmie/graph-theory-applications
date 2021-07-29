@@ -13,6 +13,10 @@ import sys
 from graphviz import Digraph
 import graphviz
 
+# file_location='C:/Users/dowdj/OneDrive/Documents/GitHub/graph-theory-applications/basics/data/'
+file_location='C:/Users/JDowd/OneDrive - Schlumberger/Programming/graph-theory-applications/basics/data/'
+
+dot_off=True
 
 def the_dot_display(G,G_edge_list,data=None):
     dot = Digraph(
@@ -39,7 +43,7 @@ def write_graph(G,graph_filename):
 
     graph_filename=graph_filename
     
-    graph_file_location='C:/Users/dowdj/OneDrive/Documents/GitHub/graph-theory-applications/basics/data/'
+    graph_file_location=file_location
     data_dict=nx.node_link_data(G)
     print(data_dict)
     graph_file=f'{graph_file_location}{graph_filename}'
@@ -89,7 +93,7 @@ window = sg.Window('Window Title', layout)
 
 
 # G=ug.Graphs(graph_type='ug')
-graph_file_location='C:/Users/dowdj/OneDrive/Documents/GitHub/graph-theory-applications/basics/data/'
+graph_file_location=file_location
 
 
 # graph_type='ug'
@@ -105,7 +109,8 @@ try:
         
     G=nx.node_link_graph(data_dict, directed=directed, multigraph=True, attrs=None)
     ug.GraphPlot(G)
-    the_dot_display(G,list(G.edges))
+    if not dot_off:
+        the_dot_display(G,list(G.edges))
 except FileNotFoundError:
     # raise
     # make an empty dictionary to make an empty Graph
@@ -149,8 +154,9 @@ while True:
 
     print(list(G.edges))
 
-    the_dot_display(G,list(G.edges),data=data)
-    
+    if not dot_off:
+        the_dot_display(G,list(G.edges),data=data)
+        
 
  
 # Finish up by removing from the screen

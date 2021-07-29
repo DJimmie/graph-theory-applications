@@ -3,8 +3,6 @@ digraph {
 	graph [landscape=False rankdir=TB size="20,16" splines=polyline]
 	node [color=white style=filled]
 	node [shape=plaintext]
-	sensor_cal_form -> "SENSOR PROGRAMS" [label="Is A"]
-	sensor_check_out -> "SENSOR PROGRAMS" [label="Is A"]
-	certifcation_record -> "SENSOR PROGRAMS" [label="Is A"]
-	certifcation_record -> "SENSOR PROGRAMS" [label="Is A"]
+	EMR -> "Test Lab Equipment" [label=submitted_for]
+	EMR -> "Test Lab Equipment" [label=submitted_for]
 }
