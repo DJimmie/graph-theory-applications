@@ -1,0 +1,99 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "id": "Sensor"
+        },
+        {
+            "id": "INSTRUMENTATION"
+        },
+        {
+            "id": "Gauge"
+        },
+        {
+            "id": "transmitter"
+        },
+        {
+            "id": "transducer"
+        },
+        {
+            "id": "Pressure"
+        },
+        {
+            "id": "Temperature"
+        },
+        {
+            "id": "gage pressure"
+        },
+        {
+            "id": "temperature gage"
+        },
+        {
+            "id": "pressure gage"
+        }
+    ],
+    "links": [
+        {
+            "attr": "isType",
+            "amount": "",
+            "source": "Sensor",
+            "target": "INSTRUMENTATION"
+        },
+        {
+            "attr": "measure",
+            "amount": "",
+            "source": "Sensor",
+            "target": "Pressure"
+        },
+        {
+            "attr": "measure",
+            "amount": "",
+            "source": "Sensor",
+            "target": "Temperature"
+        },
+        {
+            "attr": "isType",
+            "amount": "",
+            "source": "Gauge",
+            "target": "INSTRUMENTATION"
+        },
+        {
+            "attr": "measure",
+            "amount": "",
+            "source": "Gauge",
+            "target": "Temperature"
+        },
+        {
+            "attr": "measure",
+            "amount": "",
+            "source": "Gauge",
+            "target": "Pressure"
+        },
+        {
+            "attr": "isType",
+            "amount": "",
+            "source": "transmitter",
+            "target": "Sensor"
+        },
+        {
+            "attr": "isType",
+            "amount": "",
+            "source": "transducer",
+            "target": "Sensor"
+        },
+        {
+            "attr": "isType",
+            "amount": "",
+            "source": "temperature gage",
+            "target": "Gauge"
+        },
+        {
+            "attr": "isType",
+            "amount": "",
+            "source": "pressure gage",
+            "target": "Gauge"
+        }
+    ]
+}
