@@ -50,6 +50,18 @@
         },
         {
             "id": "DAQ system"
+        },
+        {
+            "id": "failure mode"
+        },
+        {
+            "id": "root cause"
+        },
+        {
+            "id": "corrective action"
+        },
+        {
+            "id": "location"
         }
     ],
     "links": [
@@ -88,6 +100,30 @@
             "amount": "",
             "source": "EMR",
             "target": "systems group"
+        },
+        {
+            "attr": "hasFailureMode",
+            "amount": "",
+            "source": "EMR",
+            "target": "failure mode"
+        },
+        {
+            "attr": "hasRootCause",
+            "amount": "",
+            "source": "EMR",
+            "target": "root cause"
+        },
+        {
+            "attr": "hasCorrectiveAction",
+            "amount": "",
+            "source": "EMR",
+            "target": "corrective action"
+        },
+        {
+            "attr": "hasLocation",
+            "amount": "",
+            "source": "EMR",
+            "target": "location"
         },
         {
             "attr": "Is A",

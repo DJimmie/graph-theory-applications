@@ -13,8 +13,8 @@ import sys
 from graphviz import Digraph
 import graphviz
 
-file_location='C:/Users/dowdj/OneDrive/Documents/GitHub/graph-theory-applications/basics/data/'
-# file_location='C:/Users/JDowd/OneDrive - Schlumberger/Programming/graph-theory-applications/basics/data/'
+# file_location='C:/Users/dowdj/OneDrive/Documents/GitHub/graph-theory-applications/basics/data/'
+file_location='C:/Users/JDowd/OneDrive - Schlumberger/Programming/graph-theory-applications/basics/data/'
 
 dot_off=False
 
@@ -123,8 +123,6 @@ except FileNotFoundError:
         json.dump(data_dict, f, indent=4)
     
     # ug.GraphPlot(G)
-
-    
 
     
 edge_list=[]
