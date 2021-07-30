@@ -13,17 +13,17 @@ import sys
 from graphviz import Digraph
 import graphviz
 
-# file_location='C:/Users/dowdj/OneDrive/Documents/GitHub/graph-theory-applications/basics/data/'
-file_location='C:/Users/JDowd/OneDrive - Schlumberger/Programming/graph-theory-applications/basics/data/'
+file_location='C:/Users/dowdj/OneDrive/Documents/GitHub/graph-theory-applications/basics/data/'
+# file_location='C:/Users/JDowd/OneDrive - Schlumberger/Programming/graph-theory-applications/basics/data/'
 
-dot_off=True
+dot_off=False
 
 def the_dot_display(G,G_edge_list,data=None):
     dot = Digraph(
         comment='The Round Table',
         engine='circo',
         node_attr={'color': 'white', 'style': 'filled'},
-        graph_attr={'rankdir':'TB',
+        graph_attr={'rankdir':'LR',
               'landscape':'False',
               'size':'20,16',
               'splines':'polyline'}

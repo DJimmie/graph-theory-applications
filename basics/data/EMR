@@ -1,1 +1,147 @@
-{}
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "id": "EMR"
+        },
+        {
+            "id": "Test Equipment"
+        },
+        {
+            "id": "nitrogen system"
+        },
+        {
+            "id": "shop air compressor"
+        },
+        {
+            "id": "Lab Support System"
+        },
+        {
+            "id": "electrical system"
+        },
+        {
+            "id": "water supply system"
+        },
+        {
+            "id": "material handling system"
+        },
+        {
+            "id": "temperature control unit"
+        },
+        {
+            "id": "mobile HPU"
+        },
+        {
+            "id": "technicians"
+        },
+        {
+            "id": "maintenance"
+        },
+        {
+            "id": "systems group"
+        },
+        {
+            "id": "forlift"
+        },
+        {
+            "id": "crane"
+        },
+        {
+            "id": "DAQ system"
+        }
+    ],
+    "links": [
+        {
+            "attr": "submitted_for",
+            "amount": "",
+            "source": "EMR",
+            "target": "Test Equipment"
+        },
+        {
+            "attr": "submitted_for",
+            "amount": "",
+            "source": "EMR",
+            "target": "Lab Support System"
+        },
+        {
+            "attr": "submitted_for",
+            "amount": "",
+            "source": "EMR",
+            "target": "material handling system"
+        },
+        {
+            "attr": "reported_by",
+            "amount": "",
+            "source": "EMR",
+            "target": "technicians"
+        },
+        {
+            "attr": "reported_by",
+            "amount": "",
+            "source": "EMR",
+            "target": "maintenance"
+        },
+        {
+            "attr": "reported_by",
+            "amount": "",
+            "source": "EMR",
+            "target": "systems group"
+        },
+        {
+            "attr": "Is A",
+            "amount": "",
+            "source": "nitrogen system",
+            "target": "Lab Support System"
+        },
+        {
+            "attr": "Is A",
+            "amount": "",
+            "source": "shop air compressor",
+            "target": "Lab Support System"
+        },
+        {
+            "attr": "Is A",
+            "amount": "",
+            "source": "electrical system",
+            "target": "Lab Support System"
+        },
+        {
+            "attr": "Is A",
+            "amount": "",
+            "source": "water supply system",
+            "target": "Lab Support System"
+        },
+        {
+            "attr": "Is A",
+            "amount": "",
+            "source": "temperature control unit",
+            "target": "Test Equipment"
+        },
+        {
+            "attr": "Is A",
+            "amount": "",
+            "source": "mobile HPU",
+            "target": "Test Equipment"
+        },
+        {
+            "attr": "Is A",
+            "amount": "",
+            "source": "forlift",
+            "target": "material handling system"
+        },
+        {
+            "attr": "Is A",
+            "amount": "",
+            "source": "crane",
+            "target": "material handling system"
+        },
+        {
+            "attr": "Is A",
+            "amount": "",
+            "source": "DAQ system",
+            "target": "Test Equipment"
+        }
+    ]
+}
