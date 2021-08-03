@@ -32,5 +32,7 @@ digraph {
 	"Russells_Unit-2" -> "temperature control unit" [label="Is A"]
 	"Russells_Unit-3" -> "temperature control unit" [label="Is A"]
 	PTM -> "Test Equipment" [label="Is A"]
-	PTM -> "Test Equipment" [label="Is A"]
+	cRIO -> "DAQ system" [label="Is A"]
+	CamDAQ -> "DAQ system" [label="Is A"]
+	CamDAQ -> "DAQ system" [label="Is A"]
 }

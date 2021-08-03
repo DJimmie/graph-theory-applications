@@ -92,6 +92,12 @@
         },
         {
             "id": "PTM"
+        },
+        {
+            "id": "cRIO"
+        },
+        {
+            "id": "CamDAQ"
         }
     ],
     "links": [
@@ -268,6 +274,18 @@
             "amount": "",
             "source": "PTM",
             "target": "Test Equipment"
+        },
+        {
+            "attr": "Is A",
+            "amount": "",
+            "source": "cRIO",
+            "target": "DAQ system"
+        },
+        {
+            "attr": "Is A",
+            "amount": "",
+            "source": "CamDAQ",
+            "target": "DAQ system"
         }
     ]
 }
