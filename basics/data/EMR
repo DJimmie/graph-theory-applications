@@ -62,6 +62,36 @@
         },
         {
             "id": "location"
+        },
+        {
+            "id": "Bemco_Unit-1"
+        },
+        {
+            "id": "Bemco_Unit-2"
+        },
+        {
+            "id": "Bemco_Unit-3"
+        },
+        {
+            "id": "Bemco_Unit-4"
+        },
+        {
+            "id": "Bemco_Unit-5"
+        },
+        {
+            "id": "Russells_Unit-1"
+        },
+        {
+            "id": "Russells_Unit-2"
+        },
+        {
+            "id": "Russells_Unit-3"
+        },
+        {
+            "id": "Facility Non-Test"
+        },
+        {
+            "id": "PTM"
         }
     ],
     "links": [
@@ -126,6 +156,12 @@
             "target": "location"
         },
         {
+            "attr": "submitted_for",
+            "amount": "",
+            "source": "EMR",
+            "target": "Facility Non-Test"
+        },
+        {
             "attr": "Is A",
             "amount": "",
             "source": "nitrogen system",
@@ -177,6 +213,60 @@
             "attr": "Is A",
             "amount": "",
             "source": "DAQ system",
+            "target": "Test Equipment"
+        },
+        {
+            "attr": "Is A",
+            "amount": "",
+            "source": "Bemco_Unit-1",
+            "target": "temperature control unit"
+        },
+        {
+            "attr": "Is A",
+            "amount": "",
+            "source": "Bemco_Unit-2",
+            "target": "temperature control unit"
+        },
+        {
+            "attr": "Is A",
+            "amount": "",
+            "source": "Bemco_Unit-3",
+            "target": "temperature control unit"
+        },
+        {
+            "attr": "Is A",
+            "amount": "",
+            "source": "Bemco_Unit-4",
+            "target": "temperature control unit"
+        },
+        {
+            "attr": "Is A",
+            "amount": "",
+            "source": "Bemco_Unit-5",
+            "target": "temperature control unit"
+        },
+        {
+            "attr": "Is A",
+            "amount": "",
+            "source": "Russells_Unit-1",
+            "target": "temperature control unit"
+        },
+        {
+            "attr": "Is A",
+            "amount": "",
+            "source": "Russells_Unit-2",
+            "target": "temperature control unit"
+        },
+        {
+            "attr": "Is A",
+            "amount": "",
+            "source": "Russells_Unit-3",
+            "target": "temperature control unit"
+        },
+        {
+            "attr": "Is A",
+            "amount": "",
+            "source": "PTM",
             "target": "Test Equipment"
         }
     ]
