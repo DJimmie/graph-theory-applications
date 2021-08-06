@@ -16,7 +16,7 @@ import graphviz
 # file_location='C:/Users/dowdj/OneDrive/Documents/GitHub/graph-theory-applications/basics/data/'
 file_location='C:/Users/JDowd/OneDrive - Schlumberger/Programming/graph-theory-applications/basics/data/'
 
-dot_off=False
+dot_off=True
 
 def the_dot_display(G,G_edge_list,data=None):
     dot = Digraph(

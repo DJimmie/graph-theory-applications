@@ -1,0 +1,60 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "id": "WALLER BUNKERS"
+        },
+        {
+            "id": "CELLS 1-6,23-24"
+        },
+        {
+            "id": "TDC BUNKERS"
+        },
+        {
+            "id": "CELLS 7-8,12-22"
+        },
+        {
+            "id": "PLC"
+        },
+        {
+            "id": "Data Acquisition"
+        },
+        {
+            "id": "PC for DAQ"
+        }
+    ],
+    "links": [
+        {
+            "attr": "HasCELLS",
+            "amount": "",
+            "source": "WALLER BUNKERS",
+            "target": "CELLS 1-6,23-24"
+        },
+        {
+            "attr": "Manifold Control",
+            "amount": "",
+            "source": "CELLS 1-6,23-24",
+            "target": "PLC"
+        },
+        {
+            "attr": "data visualization",
+            "amount": "",
+            "source": "CELLS 1-6,23-24",
+            "target": "Data Acquisition"
+        },
+        {
+            "attr": "HasCELLS",
+            "amount": "",
+            "source": "TDC BUNKERS",
+            "target": "CELLS 7-8,12-22"
+        },
+        {
+            "attr": "HasPC",
+            "amount": "",
+            "source": "Data Acquisition",
+            "target": "PC for DAQ"
+        }
+    ]
+}
