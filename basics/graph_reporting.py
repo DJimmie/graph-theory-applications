@@ -10,7 +10,7 @@ import undirected_graphs as ug
 
 # %%
 graph_file_location='C:/Users/dowdj/OneDrive/Documents/GitHub/graph-theory-applications/basics/data/'
-graph_filename='EMR'
+graph_filename='hot_plate'
 
 # graph_type='ug'
 graph_type='dig'
@@ -46,6 +46,13 @@ def analysis_of_graph(G):
     print(f'Clustering:\n{nx.clustering(G)}\n')
 
     print(f'Clustering Histogram:\n{nx.degree_histogram(G)}\n')
+
+    print(f"Predecessor:\n{nx.predecessor(G,'hot')}")
+    
+    n='dog'
+    print(f"{n} in G:{n in G}")
+    
+
 
     
 # %%
