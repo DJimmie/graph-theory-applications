@@ -1,0 +1,21 @@
+{
+    "directed": true,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "id": "Jim"
+        },
+        {
+            "id": "hasA"
+        }
+    ],
+    "links": [
+        {
+            "attr": "Car",
+            "amount": "",
+            "source": "Jim",
+            "target": "hasA"
+        }
+    ]
+}

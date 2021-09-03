@@ -3,9 +3,6 @@ digraph {
 	graph [landscape=False rankdir=LR size="20,16" splines=polyline]
 	node [color=white style=filled]
 	node [shape=plaintext]
-	person -> "hot plate" [label=touches]
-	"hot plate" -> hot [label="has temperature"]
-	"hot plate" -> "room temperature" [label="has temperature"]
-	hot -> pain [label="results in"]
-	"room temperature" -> "no pain" [label="results in"]
+	Jim -> hasA [label=Car]
+	Jim -> hasA [label=Car]
 }
