@@ -5,16 +5,26 @@ def get_node_data(df,column_name,graph_filename,**kwargs):
 
     col_index=list(df.columns).index(column_name)
     node_list=[]
-    for row_index,row in df.iterrows():
-        t=(row[col_index],{'DESCRIPTION':row['DESCRIPTION']})
-        node_list.append(t)
-
+    node_to_tag_list=[]
     a=stg.Graphs(graph_filename=graph_filename)     # instantiate empty graph
+    for row_index,row in df.iterrows():
+        t=(row[col_index],{'Status':row['Status']})
+        if 'tag' in kwargs:
+            e=(t[0],kwargs['tag'],{'attr':'Is A'})
+            node_to_tag_list.append(e)
+            print(e)
+        node_list.append(t)
+    a.node(node_list)
 
-    a.node(node_list)   # add specified nodes to graph
+    if 'tag' in kwargs:
+        tag_nodes(node_to_tag_list,graph_filename)
 
-    
-    
+def tag_nodes(edge_list,graph_filename):
+    a=stg.Graphs(graph_filename=graph_filename)
+    a.edge(edge_list)
+
+
+   
 
 def get_edge_data(df,u,v,graph_filename,**kwargs):
     
