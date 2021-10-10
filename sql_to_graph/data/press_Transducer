@@ -1,0 +1,232 @@
+{
+    "directed": false,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "facilityAddress": "N/A",
+            "assetNum": "10 KSI-1704886",
+            "model_num": "GT180-10KG-150",
+            "serial_num": "1704886",
+            "status": "Recertification",
+            "uniqueID": "10 KSI-1704886",
+            "description": "10 KSI",
+            "manufacturer": "STELLAR TECHNOLOGY",
+            "model": "GT180-10KG-150",
+            "serialNumber": "1704886",
+            "RecertDate": "2020-07-01",
+            "EnterDate": "2017-06-27",
+            "barcodeString": "c'Lever1 3325890.563539 -9.563962 0.000000 0.000000 STELLAR TECHNOLOGY GT180-10KG-150 1704886 0-10000PSI 07-01-2020 3",
+            "PO_Number": "N/A",
+            "id": "10 KSI-1704886"
+        },
+        {
+            "facilityAddress": "N/A",
+            "assetNum": "10 KSI-1707560",
+            "model_num": "GT180-10KG-150",
+            "serial_num": "1707560",
+            "status": "Recertification",
+            "uniqueID": "10 KSI-1707560",
+            "description": "10 KSI",
+            "manufacturer": "STELLAR TECHNOLOGY",
+            "model": "GT180-10KG-150",
+            "serialNumber": "1707560",
+            "RecertDate": "2021-06-10",
+            "EnterDate": "2017-08-01",
+            "barcodeString": "c'Lever1 3330691.432542 -24.438699 0.000000 0.000000 STELLAR TECHNOLOGY GT180-10KG-150 1707560 0-10000PSI 06-10-2021 2",
+            "PO_Number": "N/A",
+            "id": "10 KSI-1707560"
+        },
+        {
+            "facilityAddress": "N/A",
+            "assetNum": "10 KSI-1616519",
+            "model_num": "GT180-10KG-150",
+            "serial_num": "1616519",
+            "status": "Recertification",
+            "uniqueID": "10 KSI-1616519",
+            "description": "10 KSI",
+            "manufacturer": "STELLAR TECHNOLOGY",
+            "model": "GT180-10KG-150",
+            "serialNumber": "1616519",
+            "RecertDate": "2020-11-15",
+            "EnterDate": "2017-06-09",
+            "barcodeString": "c'Lever1 3328471.025823 -7.545403 0.000000 0.000000 STELLAR TECHNOLOGY GT180-10KG-150 1616519 0-10000PSI 11-15-2020 2",
+            "PO_Number": "N/A",
+            "id": "10 KSI-1616519"
+        },
+        {
+            "facilityAddress": "N/A",
+            "assetNum": "10 KSI-1701225",
+            "model_num": "GT180-10KG-150",
+            "serial_num": "1701225",
+            "status": "Recertification",
+            "uniqueID": "10 KSI-1701225",
+            "description": "10 KSI",
+            "manufacturer": "STELLAR TECHNOLOGY",
+            "model": "GT180-10KG-150",
+            "serialNumber": "1701225",
+            "RecertDate": "2020-04-12",
+            "EnterDate": "2017-06-09",
+            "barcodeString": "3337749.977254 -31.828384 0.000000 0.000000 STELLAR TECHNOLOGY GT180-10KG-150 1701225 0-10000PSI 2020-4-12",
+            "PO_Number": "N/A",
+            "id": "10 KSI-1701225"
+        },
+        {
+            "facilityAddress": "N/A",
+            "assetNum": "10 KSI-1701219",
+            "model_num": "GT180-10KG-150",
+            "serial_num": "1701219",
+            "status": "Active",
+            "uniqueID": "10 KSI-1701219",
+            "description": "10 KSI",
+            "manufacturer": "STELLAR TECHNOLOGY",
+            "model": "GT180-10KG-150",
+            "serialNumber": "1701219",
+            "RecertDate": "2021-08-30",
+            "EnterDate": "2017-06-09",
+            "barcodeString": "c'Lever1 3329955.147092 -16.650897 0.000000 0.000000 STELLAR TECHNOLOGY GT180-10KG-150 1701219 0-10000PSI 08-30-2021 4",
+            "PO_Number": "N/A",
+            "id": "10 KSI-1701219"
+        },
+        {
+            "facilityAddress": "N/A",
+            "assetNum": "10 KSI-1707577",
+            "model_num": "GT180-10KG-150",
+            "serial_num": "1707577",
+            "status": "Active",
+            "uniqueID": "10 KSI-1707577",
+            "description": "10 KSI",
+            "manufacturer": "STELLAR TECHNOLOGY",
+            "model": "GT180-10KG-150",
+            "serialNumber": "1707577",
+            "RecertDate": "2021-09-23",
+            "EnterDate": "2017-08-11",
+            "barcodeString": "c'Lever1 3328984.911220 -2.575999 0.000000 0.000000 STELLAR TECHNOLOGY GT180-10KG-150 1707577 0-10000PSI 09-23-2021 4",
+            "PO_Number": "N/A",
+            "id": "10 KSI-1707577"
+        },
+        {
+            "facilityAddress": "N/A",
+            "assetNum": "10 KSI-1218757",
+            "model_num": "GT180-10KG-150",
+            "serial_num": "1218757",
+            "status": "Inactive",
+            "uniqueID": "10 KSI-1218757",
+            "description": "10 KSI",
+            "manufacturer": "STELLAR TECHNOLOGY",
+            "model": "GT180-10KG-150",
+            "serialNumber": "1218757",
+            "RecertDate": "2018-01-26",
+            "EnterDate": "2017-09-20",
+            "barcodeString": "3317582.518482 111.234726 0.000000 0.000000 STELLAR TECHNOLOGY GT180-10KG-150 1218757 0-10000PSI 01-26-2018",
+            "PO_Number": "N/A",
+            "id": "10 KSI-1218757"
+        },
+        {
+            "facilityAddress": "N/A",
+            "assetNum": "10 KSI-1615351",
+            "model_num": "GT180-10KG-150",
+            "serial_num": "1615351",
+            "status": "Active",
+            "uniqueID": "10 KSI-1615351",
+            "description": "10 KSI",
+            "manufacturer": "STELLAR TECHNOLOGY",
+            "model": "GT180-10KG-150",
+            "serialNumber": "1615351",
+            "RecertDate": "2021-10-13",
+            "EnterDate": "2017-06-09",
+            "barcodeString": "c'Lever1 3327702.016666 17.961843 0.000000 0.000000 STELLAR TECHNOLOGY GT180-10KG-150 1615351 0-10000PSI 10-13-2021 1",
+            "PO_Number": "N/A",
+            "id": "10 KSI-1615351"
+        },
+        {
+            "facilityAddress": "N/A",
+            "assetNum": "10 KSI-1704870",
+            "model_num": "GT180-10KG-150",
+            "serial_num": "1704870",
+            "status": "Recertification",
+            "uniqueID": "10 KSI-1704870",
+            "description": "10 KSI",
+            "manufacturer": "STELLAR TECHNOLOGY",
+            "model": "GT180-10KG-150",
+            "serialNumber": "1704870",
+            "RecertDate": "2021-03-15",
+            "EnterDate": "2017-07-14",
+            "barcodeString": "c'Lever1 3325737.256699 -11.173826 0.000000 0.000000 STELLAR TECHNOLOGY GT180-10KG-150 1704870 0-10000PSI 03-15-2021 3",
+            "PO_Number": "N/A",
+            "id": "10 KSI-1704870"
+        },
+        {
+            "facilityAddress": "N/A",
+            "assetNum": "10 KSI-1707581",
+            "model_num": "GT180-10KG-150",
+            "serial_num": "1707581",
+            "status": "Recertification",
+            "uniqueID": "10 KSI-1707581",
+            "description": "10 KSI",
+            "manufacturer": "STELLAR TECHNOLOGY",
+            "model": "GT180-10KG-150",
+            "serialNumber": "1707581",
+            "RecertDate": "2020-07-01",
+            "EnterDate": "2017-08-11",
+            "barcodeString": "c'Lever1 3331306.110666 23.503766 0.000000 0.000000 STELLAR TECHNOLOGY GT180-10KG-150 1707581 0-10000PSI 07-01-2020 4",
+            "PO_Number": "N/A",
+            "id": "10 KSI-1707581"
+        },
+        {
+            "id": "PressureTransducer"
+        }
+    ],
+    "links": [
+        {
+            "attr": "Is A",
+            "source": "10 KSI-1704886",
+            "target": "PressureTransducer"
+        },
+        {
+            "attr": "Is A",
+            "source": "10 KSI-1707560",
+            "target": "PressureTransducer"
+        },
+        {
+            "attr": "Is A",
+            "source": "10 KSI-1616519",
+            "target": "PressureTransducer"
+        },
+        {
+            "attr": "Is A",
+            "source": "10 KSI-1701225",
+            "target": "PressureTransducer"
+        },
+        {
+            "attr": "Is A",
+            "source": "10 KSI-1701219",
+            "target": "PressureTransducer"
+        },
+        {
+            "attr": "Is A",
+            "source": "10 KSI-1707577",
+            "target": "PressureTransducer"
+        },
+        {
+            "attr": "Is A",
+            "source": "10 KSI-1218757",
+            "target": "PressureTransducer"
+        },
+        {
+            "attr": "Is A",
+            "source": "10 KSI-1615351",
+            "target": "PressureTransducer"
+        },
+        {
+            "attr": "Is A",
+            "source": "10 KSI-1704870",
+            "target": "PressureTransducer"
+        },
+        {
+            "attr": "Is A",
+            "source": "10 KSI-1707581",
+            "target": "PressureTransducer"
+        }
+    ]
+}

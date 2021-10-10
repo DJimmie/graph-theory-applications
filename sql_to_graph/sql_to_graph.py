@@ -28,7 +28,7 @@ class Graphs():
                 
                 data_dict['directed']=True if graph_type == 'dig' else False
 
-                self.G=nx.node_link_graph(data_dict, directed=False, multigraph=True, attrs=None)
+                self.G=nx.node_link_graph(data_dict, directed=True, multigraph=True, attrs=None)
                 # print(f'G:{type(G)}')
                 # self.G=nx.to_directed(G) if graph_type == 'dig' else G
                 # self.G=nx.to_directed(G) if graph_type == 'dig' else nx.node_link_graph(data_dict, directed=False, multigraph=True, attrs=None)

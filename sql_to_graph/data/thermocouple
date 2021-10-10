@@ -1,0 +1,297 @@
+{
+    "directed": false,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "facilityAddress": "N/A",
+            "assetNum": "TYPE K - FLEX-TC-2916",
+            "model_num": "TT-K-24S",
+            "serial_num": "TC-2916",
+            "status": "Active",
+            "uniqueID": "TYPE K - FLEX-TC-2916",
+            "description": "TYPE K - FLEX",
+            "manufacturer": "Omega Engineering",
+            "model": "TT-K-24S",
+            "serialNumber": "TC-2916",
+            "RecertDate": "2021-10-10",
+            "EnterDate": "2021-01-05",
+            "barcodeString": "c'Lever1 111.000000 111.000000 0.000000 0.000000 Omega Engineering TT-K-24S TC-2916 TYPE-K 10-10-2021 1",
+            "PO_Number": "N/A",
+            "id": "TYPE K - FLEX-TC-2916"
+        },
+        {
+            "facilityAddress": "N/A",
+            "assetNum": "TYPE K - FLEX-TC-2919",
+            "model_num": "TT-K-24S",
+            "serial_num": "TC-2919",
+            "status": "Active",
+            "uniqueID": "TYPE K - FLEX-TC-2919",
+            "description": "TYPE K - FLEX",
+            "manufacturer": "Omega Engineering",
+            "model": "TT-K-24S",
+            "serialNumber": "TC-2919",
+            "RecertDate": "2021-09-22",
+            "EnterDate": "2021-01-05",
+            "barcodeString": "c'Lever1 111.000000 111.000000 0.000000 0.000000 Omega Engineering TT-K-24S TC-2919 TYPE-K 09-22-2021 1",
+            "PO_Number": "N/A",
+            "id": "TYPE K - FLEX-TC-2919"
+        },
+        {
+            "facilityAddress": "N/A",
+            "assetNum": "TYPE K - FLEX-TC-2922",
+            "model_num": "TT-K-24S",
+            "serial_num": "TC-2922",
+            "status": "Active",
+            "uniqueID": "TYPE K - FLEX-TC-2922",
+            "description": "TYPE K - FLEX",
+            "manufacturer": "Omega Engineering",
+            "model": "TT-K-24S",
+            "serialNumber": "TC-2922",
+            "RecertDate": "2021-10-10",
+            "EnterDate": "2021-01-05",
+            "barcodeString": "c'Lever1 111.000000 111.000000 0.000000 0.000000 Omega Engineering TT-K-24S TC-2922 TYPE-K 10-10-2021 1",
+            "PO_Number": "N/A",
+            "id": "TYPE K - FLEX-TC-2922"
+        },
+        {
+            "facilityAddress": "N/A",
+            "assetNum": "TYPE K - FLEX-TC-2963",
+            "model_num": "TT-K-24S",
+            "serial_num": "TC-2963",
+            "status": "Active",
+            "uniqueID": "TYPE K - FLEX-TC-2963",
+            "description": "TYPE K - FLEX",
+            "manufacturer": "Omega Engineering",
+            "model": "TT-K-24S",
+            "serialNumber": "TC-2963",
+            "RecertDate": "2022-01-24",
+            "EnterDate": "2021-05-27",
+            "barcodeString": "c'Lever1 111.000000 111.000000 0.000000 0.000000 Omega Engineering TT-K-24S TC-2963 TYPE-K 01-24-2022 1",
+            "PO_Number": "N/A",
+            "id": "TYPE K - FLEX-TC-2963"
+        },
+        {
+            "facilityAddress": "N/A",
+            "assetNum": "TYPE K - FLEX-TC-2908",
+            "model_num": "TT-K-24S",
+            "serial_num": "TC-2908",
+            "status": "Active",
+            "uniqueID": "TYPE K - FLEX-TC-2908",
+            "description": "TYPE K - FLEX",
+            "manufacturer": "Omega Engineering",
+            "model": "TT-K-24S",
+            "serialNumber": "TC-2908",
+            "RecertDate": "2021-10-10",
+            "EnterDate": "2021-01-05",
+            "barcodeString": "c'Lever1 111.000000 111.000000 0.000000 0.000000 Omega Engineering TT-K-24S TC-2908 TYPE-K 10-10-2021 1",
+            "PO_Number": "N/A",
+            "id": "TYPE K - FLEX-TC-2908"
+        },
+        {
+            "facilityAddress": "N/A",
+            "assetNum": "TYPE K - FLEX-TC-2940",
+            "model_num": "TT-K-24S",
+            "serial_num": "TC-2940",
+            "status": "Active",
+            "uniqueID": "TYPE K - FLEX-TC-2940",
+            "description": "TYPE K - FLEX",
+            "manufacturer": "Omega Engineering",
+            "model": "TT-K-24S",
+            "serialNumber": "TC-2940",
+            "RecertDate": "2022-01-05",
+            "EnterDate": "2021-05-27",
+            "barcodeString": "c'Lever1 111.000000 111.000000 0.000000 0.000000 Omega Engineering TT-K-24S TC-2940 TYPE-K 01-05-2022 1",
+            "PO_Number": "N/A",
+            "id": "TYPE K - FLEX-TC-2940"
+        },
+        {
+            "facilityAddress": "N/A",
+            "assetNum": "TYPE K - FLEX-TC-2942",
+            "model_num": "TT-K-24S",
+            "serial_num": "TC-2942",
+            "status": "Active",
+            "uniqueID": "TYPE K - FLEX-TC-2942",
+            "description": "TYPE K - FLEX",
+            "manufacturer": "Omega Engineering",
+            "model": "TT-K-24S",
+            "serialNumber": "TC-2942",
+            "RecertDate": "2021-11-28",
+            "EnterDate": "2021-05-27",
+            "barcodeString": "c'Lever1 111.000000 111.000000 0.000000 0.000000 Omega Engineering TT-K-24S TC-2942 TYPE-K 11-28-2021 1",
+            "PO_Number": "N/A",
+            "id": "TYPE K - FLEX-TC-2942"
+        },
+        {
+            "facilityAddress": "N/A",
+            "assetNum": "TYPE K - FLEX-TC-2905",
+            "model_num": "TT-K-24S",
+            "serial_num": "TC-2905",
+            "status": "Active",
+            "uniqueID": "TYPE K - FLEX-TC-2905",
+            "description": "TYPE K - FLEX",
+            "manufacturer": "Omega Engineering",
+            "model": "TT-K-24S",
+            "serialNumber": "TC-2905",
+            "RecertDate": "2021-09-22",
+            "EnterDate": "2021-01-05",
+            "barcodeString": "c'Lever1 111.000000 111.000000 0.000000 0.000000 Omega Engineering TT-K-24S TC-2905 TYPE-K 09-22-2021 1",
+            "PO_Number": "N/A",
+            "id": "TYPE K - FLEX-TC-2905"
+        },
+        {
+            "facilityAddress": "N/A",
+            "assetNum": "TYPE K - FLEX-TC-2951",
+            "model_num": "TT-K-24S",
+            "serial_num": "TC-2951",
+            "status": "Active",
+            "uniqueID": "TYPE K - FLEX-TC-2951",
+            "description": "TYPE K - FLEX",
+            "manufacturer": "Omega Engineering",
+            "model": "TT-K-24S",
+            "serialNumber": "TC-2951",
+            "RecertDate": "2022-01-19",
+            "EnterDate": "2021-05-27",
+            "barcodeString": "c'Lever1 111.000000 111.000000 0.000000 0.000000 Omega Engineering TT-K-24S TC-2951 TYPE-K 01-19-2022 1",
+            "PO_Number": "N/A",
+            "id": "TYPE K - FLEX-TC-2951"
+        },
+        {
+            "facilityAddress": "N/A",
+            "assetNum": "TYPE K - FLEX-TC-2965",
+            "model_num": "TT-K-24S",
+            "serial_num": "TC-2965",
+            "status": "Active",
+            "uniqueID": "TYPE K - FLEX-TC-2965",
+            "description": "TYPE K - FLEX",
+            "manufacturer": "Omega Engineering",
+            "model": "TT-K-24S",
+            "serialNumber": "TC-2965",
+            "RecertDate": "2022-01-24",
+            "EnterDate": "2021-05-27",
+            "barcodeString": "c'Lever1 111.000000 111.000000 0.000000 0.000000 Omega Engineering TT-K-24S TC-2965 TYPE-K 01-24-2022 1",
+            "PO_Number": "N/A",
+            "id": "TYPE K - FLEX-TC-2965"
+        },
+        {
+            "id": "Thermocouple"
+        },
+        {
+            "id": "CELL19"
+        },
+        {
+            "id": "CELL21"
+        },
+        {
+            "id": "CELL24"
+        },
+        {
+            "id": "CELL20"
+        },
+        {
+            "id": "CELL7"
+        }
+    ],
+    "links": [
+        {
+            "attr": "Is A",
+            "source": "TYPE K - FLEX-TC-2916",
+            "target": "Thermocouple"
+        },
+        {
+            "attr": "hasLocation",
+            "source": "TYPE K - FLEX-TC-2916",
+            "target": "CELL19"
+        },
+        {
+            "attr": "Is A",
+            "source": "TYPE K - FLEX-TC-2919",
+            "target": "Thermocouple"
+        },
+        {
+            "attr": "hasLocation",
+            "source": "TYPE K - FLEX-TC-2919",
+            "target": "CELL21"
+        },
+        {
+            "attr": "Is A",
+            "source": "TYPE K - FLEX-TC-2922",
+            "target": "Thermocouple"
+        },
+        {
+            "attr": "hasLocation",
+            "source": "TYPE K - FLEX-TC-2922",
+            "target": "CELL19"
+        },
+        {
+            "attr": "Is A",
+            "source": "TYPE K - FLEX-TC-2963",
+            "target": "Thermocouple"
+        },
+        {
+            "attr": "hasLocation",
+            "source": "TYPE K - FLEX-TC-2963",
+            "target": "CELL24"
+        },
+        {
+            "attr": "Is A",
+            "source": "TYPE K - FLEX-TC-2908",
+            "target": "Thermocouple"
+        },
+        {
+            "attr": "hasLocation",
+            "source": "TYPE K - FLEX-TC-2908",
+            "target": "CELL20"
+        },
+        {
+            "attr": "Is A",
+            "source": "TYPE K - FLEX-TC-2940",
+            "target": "Thermocouple"
+        },
+        {
+            "attr": "hasLocation",
+            "source": "TYPE K - FLEX-TC-2940",
+            "target": "CELL7"
+        },
+        {
+            "attr": "Is A",
+            "source": "TYPE K - FLEX-TC-2942",
+            "target": "Thermocouple"
+        },
+        {
+            "attr": "hasLocation",
+            "source": "TYPE K - FLEX-TC-2942",
+            "target": "CELL20"
+        },
+        {
+            "attr": "Is A",
+            "source": "TYPE K - FLEX-TC-2905",
+            "target": "Thermocouple"
+        },
+        {
+            "attr": "hasLocation",
+            "source": "TYPE K - FLEX-TC-2905",
+            "target": "CELL21"
+        },
+        {
+            "attr": "Is A",
+            "source": "TYPE K - FLEX-TC-2951",
+            "target": "Thermocouple"
+        },
+        {
+            "attr": "hasLocation",
+            "source": "TYPE K - FLEX-TC-2951",
+            "target": "CELL7"
+        },
+        {
+            "attr": "Is A",
+            "source": "TYPE K - FLEX-TC-2965",
+            "target": "Thermocouple"
+        },
+        {
+            "attr": "hasLocation",
+            "source": "TYPE K - FLEX-TC-2965",
+            "target": "CELL24"
+        }
+    ]
+}
