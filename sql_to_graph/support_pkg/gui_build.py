@@ -1,6 +1,7 @@
-
 import datetime as dt
 from datetime import timedelta
+
+
 
 try:
     import tkinter.ttk
@@ -14,8 +15,6 @@ from tkinter import font as tkFont
 from tkinter import messagebox
 from tkinter import filedialog
 
-from tkcalendar import *
-
 class UI(Tk):
     """WIndow and its attributes."""
 
@@ -23,13 +22,15 @@ class UI(Tk):
     time_of_day=dt.datetime.today().strftime('%I:%M:%S %p')
 
     w=None
+    banner_label=None
 
     def __init__(self,parent,*args,**kwargs):
         """Create the UI Window"""
         Tk.__init__(self,parent)
-        self.parent=parent
+        self.parent=UI.w=parent
 
-        self.banner_text=f'{kwargs["banner"]} - {UI.now}'
+        # self.banner_text=f'{kwargs["banner"]} - {UI.now}   {UI.time_of_day}'
+        self.banner_text=f'{kwargs["banner"]}'
         self.title(kwargs["title"])
 
         if 'win_color' in kwargs:
@@ -59,8 +60,6 @@ class UI(Tk):
 
         self.initialize()
 
-        UI.w=self.parent
-
         
     def initialize(self):
         """Set-up and configure the UI window"""
@@ -70,13 +69,15 @@ class UI(Tk):
         self['bg']=self.window_colors
 
         fg='white'
-        self.banner=Label(self,text=self.banner_text,fg=self.fg,bg=self.window_colors,font='Ariel 30 bold',image=self.image)
-        self.banner.grid(row=0,column=0,columnspan=3)
+        self.banner=UI.banner_label=Label(self,text=self.banner_text,fg=self.fg,bg=self.window_colors,font='Ariel 30 bold',image=self.image)
+        self.banner.grid(row=0,column=0,columnspan=4,sticky=None)
         
         self.menubar=Menu(self)
         self.menubar.add_command(label="Exit",font='ariel',command=self.bye_bye)
         self.menubar.add_command(label="Instructions",font='ariel',command=None)
         self.config(menu=self.menubar)
+
+        Tk.update(self)
 
    
     # self.gui_build()
@@ -107,7 +108,6 @@ class Frames(Tk):
             self.frame_banner.image=kwargs['image']
         self.frame_banner.grid(row=0,column=0,columnspan=5,pady=15)
 
-# %%
 class List_box(Tk):
     """Generate List Box"""
     def __init__(self,the_frame,name,row,col,*args,**kwargs):
@@ -149,7 +149,6 @@ class List_box(Tk):
         self.list_label=Label(the_frame,text=self.txt,bg='blue',fg='yellow',font='Ariel 12 bold',relief=relief)
         self.list_box=Listbox(the_frame,font=font, bg=bg,borderwidth=2,height=height,width=fw,selectmode=selectmode)
         
-
         self.list_label.grid(row=row,column=col,columnspan=kwargs['columnspan'],pady=kwargs['pady'],sticky=kwargs['sticky'])
         self.list_box.grid(row=(row+1),column=col,columnspan=kwargs['columnspan'],pady=kwargs['pady'],sticky=kwargs['sticky'])
 
@@ -208,7 +207,7 @@ class Textbox(Tk):
         
 
         self.text_box_label=Label(the_frame,text=name,bg='blue',fg='yellow',font='Ariel 12 bold')
-
+        
         self.text_box=Text(the_frame,
         borderwidth=1,
         height=height,
@@ -217,11 +216,11 @@ class Textbox(Tk):
         wrap=WORD,
         state=state)
 
-        self.text_box_label.grid(row=row,column=col,columnspan=columnspan,pady=pady,sticky=sticky)
-        self.text_box_label.update()
-        p=self.text_box_label.winfo_reqheight()
-        self.text_box.update()
-        self.text_box.grid(row=(row+0),column=col,columnspan=columnspan,pady=pady+p,sticky=sticky)
+        # self.yscroll = Scrollbar(the_frame,orient="vertical",command=self.text_box.yview).grid(row=(row+1),column=col,sticky=N+S+E)
+
+        self.text_box_label.grid(row=row,column=col,columnspan=columnspan,pady=1,sticky=sticky)
+        self.text_box.grid(row=(row+1),column=col,columnspan=columnspan,pady=pady,sticky=sticky)
+        # self.text_box['yscrollcommand']=self.yscroll.set
 
 
 class CheckBoxes(Tk):
@@ -273,14 +272,9 @@ class Labels(Tk):
             fg=kwargs['fg']
         else:
             fg='yellow'
-
-        if 'columnspan' in kwargs:
-            columnspan=kwargs['columnspan']
-        else:
-            columnspan=1
         
         self.label=Label(the_frame,text=name,bg=bg,fg=fg,font=font)
-        self.label.grid(row=row,column=col,columnspan=columnspan,pady=pady,padx=padx,sticky=W)
+        self.label.grid(row=row,column=col,columnspan=1,pady=pady,padx=padx,sticky=W)
 
 class Buttons(Tk):
     def __init__(self,the_frame,name,row,col,width,command,*args,**kwargs):
@@ -368,11 +362,16 @@ class Combos(Tk):
             if kwargs['direction']=='HORZ':
                 self.combo_label.grid(row=row,column=col,columnspan=1,pady=1,sticky=W)
                 self.combo.grid(row=row,column=(col+1),columnspan=1,pady=1,sticky=W)
-            elif kwargs['direction']=='NO_LABEL':
-                self.combo.grid(row=row,column=col,columnspan=1,pady=1,sticky=W)
         else:
-            self.combo_label.grid(row=row,column=col,columnspan=1,pady=pady,sticky=W)
-            self.combo.grid(row=(row+1),column=col,columnspan=1,pady=pady,sticky=W)
+            # self.combo_label.grid(row=row,column=col,columnspan=1,pady=pady,sticky=W)
+            # self.combo.grid(row=(row+1),column=col,columnspan=1,pady=pady,sticky=W)
+
+            self.combo_label.grid(row=row,column=col,columnspan=1,pady=(0,self.combo_label.winfo_reqheight()),sticky=NW)
+            self.combo.grid(row=row,column=col,columnspan=1,pady=(self.combo_label.winfo_reqheight(),0),sticky=NW)
+
+            print(f'winfo height---->{self.combo_label.winfo_reqheight()}')
+
+
         
 
 
@@ -518,7 +517,35 @@ class MenuButtons(Tk):
             c+=1
 
 
+class Tree(Tk):
+    """Create the UI Entry fields with accompaning labels"""
+    def __init__(self,the_frame,row,col,columns,style,*args,**kwargs):
 
+        if 'height' in kwargs:
+            height=kwargs['height']
+        else:
+            height=20
+
+        self.style = ttk.Style()
+        self.style.theme_use('clam')
+        self.style.configure(style, highlightthickness=10, bd=0, rowheight=120, font=('Calibri', 10))
+        self.style.configure("my.Treeview.Heading", font=('Calibri', 10,'bold'),foreground='white',background='black') 
+
+        
+        self.tree=ttk.Treeview(the_frame,columns=columns,style=style,height=height)
+
+        yscrollbar = ttk.Scrollbar(the_frame,orient='vertical', command=self.tree.yview)
+        xscrollbar = ttk.Scrollbar(the_frame,orient='horizontal', command=self.tree.xview)
+
+        self.tree.configure(yscrollcommand = yscrollbar.set, xscrollcommand = xscrollbar.set, selectmode="browse")
+
+        self.tree.grid(row=row,column=col,columnspan=2,pady=1,sticky=W)
+
+        yscrollbar.config(command=self.tree.yview)
+        xscrollbar.config(command=self.tree.xview)
+
+        yscrollbar.grid(row=row, column=col+2, sticky='ns')
+        xscrollbar.grid(row=row+1, column=col, columnspan=2,sticky='we')
 
 
 def widget_options(**kwargs):
